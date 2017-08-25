@@ -1,0 +1,22 @@
+﻿USERS/topic_testuser_harry_FRENCH.txt
+jul2116 Aug25'17-11:23:30 0 0 |
+1 0 0 DY 0 22 22 0 # start, input#, no rejoinder, #0topics, #1topics, layer2
+~introductions #pending
+#`end topics
+$singleresponse=1
+$botprompt=HARRY: 
+$userprompt=testuser: >
+$cs_control_main=~control
+$cs_token=163583
+$cs_login=testuser
+$cs_bot=Harry
+$cs_randindex=484
+$cs_trace=0
+#`end variables
+0 #set flags
+#`end fact sets
+#`end user facts 0
+#context 
+#`end user
+ Welcome to ChatScript.
+#`end chatbot

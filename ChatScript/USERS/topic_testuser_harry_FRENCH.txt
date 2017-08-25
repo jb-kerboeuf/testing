@@ -1,0 +1,25 @@
+USERS/topic_testuser_harry_FRENCH.txt
+jul2116 Aug25'17-11:23:30 Aug25'17-11:23:50 0 |
+1 1 ~introductions !Mb Uk?Kk  DY 0 22 22 0 # start, input#, rejoindertopic,rejoinderid (a:  ( ~yes ) Welcome back! ),checksum
+~introductions #pending
+~introductions + 1 Uk?Kk ca 1 0 0 
+#`end topics
+$cs_randindex=484
+$cs_bot=Harry
+$cs_login=testuser
+$cs_token=163583
+$cs_control_main=~control
+$userprompt=testuser: >
+$botprompt=HARRY: 
+$singleresponse=1
+$cs_trace=0
+#`end variables
+0 #set flags
+#`end fact sets
+#`end user facts 0
+#context 
+ hello
+#`end user
+ Welcome to ChatScript.
+ Have you been here before?
+#`end chatbot

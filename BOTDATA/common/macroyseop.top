@@ -1,0 +1,35 @@
+##<<
+todo :
+- gérer l'authentification
+
+évols :
+- appeler un paquet de règles, et récupérer les nouvelles données
+##>>
+
+
+# data : json à envoyer à Yseop
+# textfunction : nom de la textfunction à appeler
+# $$urlyseop doit avoir été défini
+# les erreurs sont enregistrées dans yseoperrors.txt
+outputmacro: ^callyseop(^data ^textfunction)
+  ^if (!$$urlyseop) {
+    ^log(FILE LOGS/yseoperrors.txt %year %month %daynumber %time %second "$$urlyseop" must be defined \n) 
+  } else {
+    $_request = ^jsoncreate(object)
+    $_request.data = ^data
+    $_request.textfunction = ^textfunction
+    $_response = ^jsonopen(POST $$urlyseop ^jsonwrite($_request) ^"Content-Type: application/json")
+    
+    if (%httpresponse!=200) {
+      ^log(FILE LOGS/yseoperrors.txt %year %month %daynumber %time %second bad answer from Yseop server : http %httpresponse \n) 
+    }    
+    ^if (!$_response) {
+      ^log(FILE LOGS/yseoperrors.txt %year %month %daynumber %time %second no answer from Yseop server \n) 
+    }
+    ^if ($_response.errors) {
+      ^log(FILE LOGS/yseoperrors.txt %year %month %daynumber %time %second $_response.errors \n) 
+    }
+    
+    $_response.text
+    
+  }

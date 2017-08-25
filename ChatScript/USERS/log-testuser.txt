@@ -1,0 +1,4 @@
+﻿No such bot  testuser:visabot -  -  status: harry   in topic_testuser_visabot_FRENCH.txt at 0: ^visabot
+    Command: :build 1 reset
+Start: user:testuser bot:harry ip: rand:484 (~introductions) 0 ==> Welcome to ChatScript.  When:Aug25'17-11:23:40 Version:7.52 Build0:Jul08'17-10:20:54 Build1:Jul08'17-15:16:01 0:Aug25'17-11:23:30 F:0 P:0 Why:~introductions.1.0.~control.0.0 
+Respond: user:testuser bot:harry ip: (~introductions) 1   hello ==> Have you been here before?  When:Aug25'17-11:23:50 Why:~introductions.2.0.~control.9.0   F:15 

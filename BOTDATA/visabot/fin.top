@@ -1,0 +1,22 @@
+topic: ~fin repeat []
+
+u: (_*) ^keep()
+	if(_0==^"") {
+		# debug : vide \n
+		Ravie de vous revoir ! ^reuse(~questions.AIDER) 
+	}
+
+t: () ^keep()
+	Avez-vous obtenu toutes les réponses à vos questions ?
+
+?: () ^keep()
+	^respond(~questions)
+
+u: DISPO (~oui) ^keep()
+	Ce fut un plaisir de vous aider ! Je reste disponible si vous avez d'autres questions. 
+
+u: (~non) ^keep()
+	^reuse(~questions.ECOUTE) 
+
+u: (_~aurevoir) ^keep()
+	_0 !

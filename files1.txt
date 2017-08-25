@@ -1,2 +1,2 @@
-../../BOTDATA/common/
-../../BOTDATA/bnpcreditimmo/
+../BOTDATA/visabot/
+../BOTDATA/common/

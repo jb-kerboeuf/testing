@@ -1,0 +1,115 @@
+outputmacro: bnpcreditimmo()
+	# $cs_token = #DO_INTERJECTION_SPLITTING | #DO_SUBSTITUTE_SYSTEM | #DO_NUMBER_MERGE | #DO_DATE_MERGE | #DO_PROPERNAME_MERGE | #DO_SPELLCHECK | #DO_PARSE
+	$cs_token = #DO_ESSENTIALS | #DO_NUMBER_MERGE | #DO_SUBSTITUTE_SYSTEM | #DO_SPELLCHECK
+
+	# ^addtopic(~debut)
+	$cs_control_main = ~control
+	$userprompt = ^"%user: >"
+	$botprompt = ^"bnpcreditimmo: "
+	$cs_control_post = ~xpost_control
+	# $cs_language = french # for 7.4
+	# $cs_numbers = french # for 7.4
+
+
+table: defaultbot (^name)
+	^createfact(^name defaultbot defaultbot)
+	DATA:
+	bnpcreditimmo
+
+
+outputmacro: ^isInAltTopic()
+	if (^query(direct_sv %topic isAltTopic ? 1)) {
+		# ^log(OUTPUT_ECHO actuellement dans alt topic )
+		true
+	} else {
+		false
+	}
+
+outputmacro: ^fromoobtomain()
+	# orig1: %originalsentence
+	^next(INPUT)
+	# orig2: %originalsentence
+	^reuse(MAIN)
+
+
+topic: ~xpost_control system repeat ()
+t: () ^keep()
+	^preprint( \[ ^'{
+		"nbEchanges": %input,
+		"progress": 0
+	}' \] )
+	if($pascompris==true ) { $lastpascompris = true }
+	else { $lastpascompris = false }
+	$pascompris = false
+
+topic: ~control system ()
+u: ( \[ _* ) 
+	# ^log(OUTPUT_ECHO oob value is _0)
+	if($data) {
+		# déjà identifiés ou déjà passés par le choix d'un cas de test => on ignore
+		# ^log(OUTPUT_ECHO user déjà connu ^jsonwrite($data) )
+		^fromoobtomain()
+	} else {
+		# ^log(OUTPUT_ECHO INIT DE L'USER )
+		$_userdata = ^jsonparse(safe _0)
+		if (!$_userdata.givenName and !$_userdata.surname) {
+			# ^log(OUTPUT_ECHO user pas valide )
+	  		^fromoobtomain()
+		} else {
+			$_dataRaw = ^'
+			{
+				"firstName": "",
+				"lastName": ""
+			}
+			'
+			$data = ^jsonparse(permanent $_dataRaw)
+			$data.firstName = $_userdata.givenName
+			$data.lastName = $_userdata.surname
+			# $data.toto = "toto"
+			# ^log(OUTPUT_ECHO ^jsonwrite($data) )
+			^fromoobtomain()
+		}
+	}
+
+u: MAIN () # main per-sentence processing
+
+	# ^log(OUTPUT_ECHO processing: %originalsentence )
+	# ^log(OUTPUT_ECHO je suis dans le main )
+	if (!%topic)  {
+		^gambit(~debut)
+		^end(RULE)
+	}
+
+	# ^isInAltTopic()
+	if (^isInAltTopic() == true) {
+		# ^log(OUTPUT_ECHO  !! on est dans un alt topic !!)
+		nofail(TOPIC ^rejoinder())
+		if (%response == 0) { nofail(TOPIC ^respond(%topic)) }
+		if (%response == 0) { nofail(TOPIC ^gambit(%topic)) }
+
+		if (^isInAltTopic() == false) {
+			# ^log(OUTPUT_ECHO !! on est sortis du alt : on reprend !!)
+			nofail(TOPIC ^gambit(%topic))
+		}
+
+	} else {
+		# ^log(OUTPUT_ECHO !! on est dans un topic classique !!)
+		# $_currenttopic = %topic		# get the current topic, might change if we go in transverse
+		$_nbResponseBefore = %response
+		tryalttopics()
+		$_nbResponseTransverse = %response - $_nbResponseBefore
+
+		if ($_nbResponseTransverse == 0) {
+			nofail(TOPIC ^rejoinder())
+			if (%response == $_nbResponseTransverse) { nofail(TOPIC ^respond(%topic)) }
+			if (%response == $_nbResponseTransverse) { nofail(TOPIC ^gambit(%topic)) }
+
+		} else {
+			if (^isInAltTopic() == true) {
+				# ^log(OUTPUT_ECHO !! on est allés dans un alt topic pour y rester !!)
+			} else {
+				# ^log(OUTPUT_ECHO !! on est allés dans un alt topic SANS y rester !!)
+				nofail(TOPIC ^gambit(%topic))
+			}
+		}
+	}

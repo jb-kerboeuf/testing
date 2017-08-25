@@ -2,3 +2,11 @@
     Command: :build 1 reset
 Start: user:testuser bot:harry ip: rand:484 (~introductions) 0 ==> Welcome to ChatScript.  When:Aug25'17-11:23:40 Version:7.52 Build0:Jul08'17-10:20:54 Build1:Jul08'17-15:16:01 0:Aug25'17-11:23:30 F:0 P:0 Why:~introductions.1.0.~control.0.0 
 Respond: user:testuser bot:harry ip: (~introductions) 1   hello ==> Have you been here before?  When:Aug25'17-11:23:50 Why:~introductions.2.0.~control.9.0   F:15 
+No such bot  testuser:visabot -  -  status: harry   in topic_testuser_visabot_FRENCH.txt at 0: ^visabot
+    Command: :build 1 reset
+No such bot  testuser -  -  status: defaultbot word not foundCommand: :build 1 reset
+No such bot  testuser -  -  status: defaultbot word not foundCommand: :build 1 reset
+Start: user:testuser bot:bnpcreditimmo ip: rand:484 (~questions) 0 ==> [{ "nbEchanges": 0, "progress": 0 } ]`Bonjour !  Je suis Laure, votre assistante virtuelle. `Comment puis-je vous aider ?`   When:Aug25'17-11:31:18 Version:7.52 Build0:Jul08'17-10:20:54 Build1:Aug25'17-11:31:06 0:Aug25'17-11:31:06 F:0 P:0 Why:~xpost_control.0.0 ~debut.2.0.~control.1.0=MAIN ~questions.0.0=AIDER.~debut.2.0 ~debut.2.0.~control.1.0=MAIN 
+Command: :build 1 reset
+No such bot  testuser -  -  status: defaultbot word not foundCommand: :build 1 reset
+Start: user:testuser bot:bnpcreditimmo ip: rand:484 (~questions) 0 ==> [{ "nbEchanges": 0, "progress": 0 } ]`Bonjour !  Je suis Laure, votre assistante virtuelle. `Comment puis-je vous aider ?`   When:Aug25'17-11:32:31 Version:7.52 Build0:Jul08'17-10:20:54 Build1:Aug25'17-11:32:19 0:Aug25'17-11:32:19 F:0 P:0 Why:~xpost_control.0.0 ~debut.2.0.~control.1.0=MAIN ~questions.0.0=AIDER.~debut.2.0 ~debut.2.0.~control.1.0=MAIN 

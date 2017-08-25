@@ -1,1 +1,120 @@
 ﻿ChatScript Version 7.52  compiled Jul  8 2017 14:55:30
+
+>>Reading folder ../BOTDATA/visabot/
+
+----Reading file accueil.top
+Reading topic ~debut
+*** Warning-  File ../BOTDATA/visabot/accueil.top has no utf8 BOM but has character>127
+
+----Reading file fin.top
+Reading topic ~fin
+*** Warning-  File ../BOTDATA/visabot/fin.top has no utf8 BOM but has character>127
+
+----Reading file misc.top
+Reading table ^tbl:alttopics
+Reading outputmacro: ^reprenons
+Reading topic ~aide
+Reading topic ~quietesvous
+Reading topic ~blague
+Reading topic ~version
+*** Warning-  File ../BOTDATA/visabot/misc.top has no utf8 BOM but has character>127
+
+----Reading file questions.top
+Reading outputmacro: ^derog
+Reading outputmacro: ^garanties
+Reading outputmacro: ^liensimu
+Reading topic ~questions
+*** Warning- line 213 of questions.top: Keyword MAESTRO should not be uppercase - did prior rule fail to close
+*** Warning- line 246 of questions.top: Keyword MAESTRO should not be uppercase - did prior rule fail to close
+*** Warning- line 275 of questions.top: Keyword MAESTRO should not be uppercase - did prior rule fail to close
+*** Warning-  File ../BOTDATA/visabot/questions.top has no utf8 BOM but has character>127
+
+----Reading file simplecontrol.top
+Reading outputmacro: ^bnpcreditimmo
+Reading table ^tbl:defaultbot
+Reading outputmacro: ^isinalttopic
+Reading outputmacro: ^fromoobtomain
+Reading topic ~xpost_control
+Reading topic ~control
+*** Warning-  File ../BOTDATA/visabot/simplecontrol.top has no utf8 BOM but has character>127
+
+<<end folder ../BOTDATA/visabot
+
+>>Reading folder ../BOTDATA/common/
+
+----Reading file alttopics.top
+Reading outputmacro: ^tryalttopics
+
+----Reading file buttons.top
+Reading outputmacro: ^btnrp
+Reading outputmacro: ^btn
+Reading outputmacro: ^btns
+*** Warning-  File ../BOTDATA/common/buttons.top has no utf8 BOM but has character>127
+
+----Reading file chiffres.top
+Reading concept ~chiffre
+Reading table ^tbl:nombres
+Reading outputmacro: ^correspondnb
+Reading outputmacro: ^traiternombre
+Reading outputmacro: ^traitertranche
+*** Warning-  File ../BOTDATA/common/chiffres.top has no utf8 BOM but has character>127
+
+----Reading file macroyseop.top
+Reading outputmacro: ^callyseop
+*** Warning-  File ../BOTDATA/common/macroyseop.top has no utf8 BOM but has character>127
+
+----Reading file ontogene.top
+Reading concept ~bonjour
+Reading concept ~aurevoir
+Reading concept ~oui
+Reading concept ~non
+Reading concept ~bof
+Reading concept ~rien
+Reading concept ~compris
+Reading concept ~inconnu
+Reading concept ~exclu
+Reading concept ~credit
+Reading concept ~habitatm
+Reading concept ~habitatf
+Reading concept ~habitatp
+Reading concept ~habitation
+Reading concept ~immobilier
+Reading concept ~pays
+Reading concept ~pays_etrangers
+Reading concept ~etranger
+*** Warning-  File ../BOTDATA/common/ontogene.top has no utf8 BOM but has character>127
+
+----Reading file version.top
+
+<<end folder ../BOTDATA/common
+
+WARNING SUMMARY: 
+  line 40 of : File ../BOTDATA/visabot/accueil.top has no utf8 BOM but has character>127
+
+  line 27 of : File ../BOTDATA/visabot/fin.top has no utf8 BOM but has character>127
+
+  line 70 of : File ../BOTDATA/visabot/misc.top has no utf8 BOM but has character>127
+
+  line 213 of questions.top: Keyword MAESTRO should not be uppercase - did prior rule fail to close
+
+  line 246 of questions.top: Keyword MAESTRO should not be uppercase - did prior rule fail to close
+
+  line 275 of questions.top: Keyword MAESTRO should not be uppercase - did prior rule fail to close
+
+  line 683 of : File ../BOTDATA/visabot/questions.top has no utf8 BOM but has character>127
+
+  line 120 of : File ../BOTDATA/visabot/simplecontrol.top has no utf8 BOM but has character>127
+
+  line 35 of : File ../BOTDATA/common/buttons.top has no utf8 BOM but has character>127
+
+  line 179 of : File ../BOTDATA/common/chiffres.top has no utf8 BOM but has character>127
+
+  line 39 of : File ../BOTDATA/common/macroyseop.top has no utf8 BOM but has character>127
+
+  line 22 of : File ../BOTDATA/common/ontogene.top has no utf8 BOM but has character>127
+
+12 serious warnings, 0 function warnings, 0 spelling warnings, 0 case warnings, 0 substitution warnings
+    
+
+Finished compile
+

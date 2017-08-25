@@ -1,21 +1,51 @@
-﻿+ babies VERB_PRESENT_3PS NOUN VERB NOUN_PLURAL KINDERGARTEN 
-+ words VERB_PRESENT_3PS NOUN VERB NOUN_PLURAL KINDERGARTEN 
-+ cents NOUN NOUN_PLURAL KINDERGARTEN 
+﻿+ zero PATTERN_WORD 
++ bnpcreditimmo 
 + defaultbot 
-+ voices VERB_PRESENT_3PS NOUN VERB NOUN_PLURAL KINDERGARTEN 
-+ fingers VERB_PRESENT_3PS NOUN VERB NOUN_PLURAL KINDERGARTEN 
-+ brains VERB_PRESENT_3PS NOUN VERB NOUN_PLURAL GRADE3_4 
-+ deflecting VERB_PRESENT_PARTICIPLE VERB GRADE5_6 
-+ faring VERB_PRESENT_PARTICIPLE VERB 
-+ seemed VERB_PAST VERB_PAST_PARTICIPLE VERB ADJECTIVE_PARTICIPLE NOUN_ADJECTIVE KINDERGARTEN 
-+ concerns VERB_PRESENT_3PS NOUN VERB NOUN_PLURAL KINDERGARTEN 
-+ causes VERB_PRESENT_3PS NOUN VERB NOUN_PLURAL GRADE3_4 
-+ weakest MOST_FORM ADJECTIVE ADJECTIVE_NORMAL KINDERGARTEN 
-+ louder MORE_FORM ADJECTIVE ADJECTIVE_NORMAL KINDERGARTEN 
-+ replied VERB_PAST VERB_PAST_PARTICIPLE VERB ADJECTIVE_PARTICIPLE NOUN_ADJECTIVE KINDERGARTEN 
-+ asked VERB_PAST VERB_PAST_PARTICIPLE VERB ADJECTIVE_PARTICIPLE NOUN_ADJECTIVE GRADE3_4 
-+ kidding VERB_PRESENT_PARTICIPLE VERB KINDERGARTEN 
-+ weekends VERB_PRESENT_3PS NOUN VERB NOUN_PLURAL KINDERGARTEN 
-+ morals NOUN NOUN_PLURAL GRADE1_2 
-+ cares VERB_PRESENT_3PS NOUN VERB NOUN_PLURAL KINDERGARTEN 
-+ ignoring VERB_PRESENT_PARTICIPLE VERB GRADE3_4 
++ au_revoir 
++ à_bientôt 
++ à_plus 
++ à_la_prochaine 
++ à_une_prochaine 
++ au_plaisir 
++ à_la_revoyure 
++ bonne_journée 
++ bien_sûr 
++ sans_aucun_doute 
++ tout_à_fait 
++ c'est_ça 
++ pas_d'accord 
++ certainement_pas 
++ absolument_pas 
++ pas_du_tout 
++ pense_pas 
++ crois_pas 
++ à_peu_près 
++ à_peu_de_chose_près 
++ plus_ou_moins 
++ ai_entendu_parler 
++ un_peu 
++ ça_dépend 
++ je_pense 
++ je_crois 
++ que_dalle 
++ sais_pas 
++ aucune_idée 
++ moindre_idée 
++ sais_rien 
++ jamais_entendu_parler 
++ crédit_immobilier 
++ crédits_immobiliers 
++ prêt_immobilier 
++ prêts_immobiliers 
++ crédit_immo 
++ crédits_immo 
++ prêt_immo 
++ prêts_immo 
++ bien_immobilier 
++ bien_locatif 
++ mobil_home 
++ chambre_de_bonne 
++ biens_immobiliers 
++ place_de_parking 
++ autre_pays 
++ autres_pays 

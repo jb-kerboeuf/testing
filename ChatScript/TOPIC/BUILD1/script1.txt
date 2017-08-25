@@ -1,4 +1,4 @@
-﻿00009 Aug25'17-11:32:19 1 7.52
+﻿00009 Aug25'17-11:51:12 1 7.52
 TOPIC: ~debut 0x2 -1577804252 6 4 648 accueil.top
 " all " 01A t: ( << _~bonjour ? >> ) _0 ! \n Je suis Laure, votre assistante virtuelle. \n \n ^respond ( ~questions ) `01o t: ( _~bonjour ) _0 ! \n Je suis Laure, votre assistante virtuelle. \n ^gambit ( ~questions ) `02C t: ( _* ) ^keep ( ) ^if 00h( _0 ==^ "" ) 01k{ Bonjour ! \n Je suis Laure, votre assistante virtuelle. ^reuse ( ~questions.aider ) } 00P else ( 1 ) 00z { ^respond ( ~questions ) } 004 `01t t: ( !$profil ) ^keep ( ) \n\n Êtes-vous client ou conseiller ? ^btns ( reply Client Conseiller ) `00~ u: ( client ) $profil = ^"client" ^gambit ( ~questions ) `00* u: ( conseiller ) $profil = ^"conseiller" ^gambit ( ~questions ) `000 
 TOPIC: ~fin 0x2 1256112392 6 1 462 fin.top

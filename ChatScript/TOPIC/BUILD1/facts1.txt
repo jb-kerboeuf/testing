@@ -4,7 +4,7 @@
 ( ~quietesvous isAltTopic blabla x100000 )
 ( ~blague isAltTopic blabla x100000 )
 ( ~version isAltTopic blabla x100000 )
-( bnpcreditimmo defaultbot defaultbot x100000 )
+( visabot defaultbot defaultbot x100000 )
 ( zéro correspond 0 x100000 )
 ( zéro deType REAL_NUMBER x100000 )
 ( zero correspond 0 x100000 )

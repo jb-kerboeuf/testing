@@ -743,74 +743,74 @@ file: C:/Users/jean-baptiste.kerboe/Documents/GitHub/testing/ChatScript/../BOTDA
           line: 679 90
           Complexity of rule ~questions.70.0- u: 1
 file: C:/Users/jean-baptiste.kerboe/Documents/GitHub/testing/ChatScript/../BOTDATA/visabot/simplecontrol.top 0
-    macro: ^bnpcreditimmo 1
+    macro: ^visabot 1
           line: 3 0
           line: 6 28
           line: 7 52
           line: 8 75
           line: 9 100
-          Complexity of ^bnpcreditimmo: 1
-          line: 15 0
-    macro: ^isinalttopic 20
-          line: 21 0
-          line: 23 57
-          line: 24 59
-          line: 25 85
-          line: 26 87
+          Complexity of ^visabot: 1
+          line: 13 0
+    macro: ^isinalttopic 18
+          line: 19 0
+          line: 21 57
+          line: 22 59
+          line: 23 85
+          line: 24 87
           Complexity of ^isinalttopic: 2
-    macro: ^fromoobtomain 28
-          line: 30 0
-          line: 32 16
+    macro: ^fromoobtomain 26
+          line: 28 0
+          line: 30 16
           Complexity of ^fromoobtomain: 1
-    topic: ~xpost_control 35
-        rule: ~xpost_control.0.0 t:  36
-          line: 36 0
-          line: 40 10
-          line: 41 73
-          line: 42 132
-          line: 43 179
+    topic: ~xpost_control 33
+        rule: ~xpost_control.0.0 t:  34
+          line: 34 0
+          line: 38 10
+          line: 39 73
+          line: 40 132
+          line: 41 179
           Complexity of rule ~xpost_control.0.0- t: 2
-    topic: ~control 45
-        rule: ~control.0.0 u:  46
-          line: 48 0
-          line: 51 20
-          line: 52 41
-          line: 54 62
-          line: 55 100
-          line: 57 162
-          line: 58 183
-          line: 64 204
-          line: 65 218
-          line: 66 302
-          line: 67 320
-          line: 70 358
-          line: 72 396
+    topic: ~control 43
+        rule: ~control.0.0 u:  44
+          line: 46 0
+          line: 49 20
+          line: 50 41
+          line: 52 62
+          line: 53 100
+          line: 55 162
+          line: 56 183
+          line: 62 204
+          line: 63 218
+          line: 64 302
+          line: 65 320
+          line: 68 358
+          line: 70 396
           Complexity of rule ~control.0.0- u: 3
-        rule: ~control.1.0-MAIN u:  74
-          line: 78 0
-          line: 79 23
-          line: 80 44
-          line: 84 58
-          line: 86 104
-          line: 87 139
-          line: 88 208
-          line: 90 282
-          line: 92 329
-          line: 95 368
-          line: 98 395
-          line: 99 418
-          line: 100 443
-          line: 102 482
-          line: 103 543
-          line: 104 578
-          line: 105 668
-          line: 107 763
-          line: 108 790
-          line: 110 832
-          line: 112 855
-          line: 114 894
-          line: 115 900
-          line: 116 906
+        rule: ~control.1.0-MAIN u:  72
+          line: 76 0
+          line: 77 23
+          line: 78 44
+          line: 82 58
+          line: 84 104
+          line: 85 139
+          line: 86 208
+          line: 88 282
+          line: 90 329
+          line: 93 368
+          line: 96 395
+          line: 97 418
+          line: 98 443
+          line: 100 482
+          line: 101 543
+          line: 102 578
+          line: 103 668
+          line: 105 763
+          line: 106 790
+          line: 108 832
+          line: 110 855
+          line: 112 894
+          line: 113 900
+          line: 114 906
           Complexity of rule ~control.1.0-MAIN u: 10
 file: C:/Users/jean-baptiste.kerboe/Documents/GitHub/testing/ChatScript/../BOTDATA/common/alttopics.top 0
     macro: ^tryalttopics 2
@@ -824,21 +824,21 @@ file: C:/Users/jean-baptiste.kerboe/Documents/GitHub/testing/ChatScript/../BOTDA
           line: 11 218
           Complexity of ^tryalttopics: 2
 file: C:/Users/jean-baptiste.kerboe/Documents/GitHub/testing/ChatScript/../BOTDATA/common/buttons.top 0
-    macro: ^btnrp 11
+    macro: ^btnrp 1
           Complexity of ^btnrp: 1
-    macro: ^btn 16
+    macro: ^btn 4
           Complexity of ^btn: 1
-    macro: ^btns 20
-          line: 21 0
-          line: 22 34
-          line: 23 74
-          line: 24 114
-          line: 25 154
-          line: 26 194
-          line: 27 234
-          line: 28 274
-          line: 29 314
-          line: 31 354
+    macro: ^btns 7
+          line: 8 0
+          line: 9 34
+          line: 10 74
+          line: 11 114
+          line: 12 154
+          line: 13 194
+          line: 14 234
+          line: 15 274
+          line: 16 314
+          line: 18 354
           Complexity of ^btns: 10
 file: C:/Users/jean-baptiste.kerboe/Documents/GitHub/testing/ChatScript/../BOTDATA/common/chiffres.top 0
     concept: ~chiffre 1
@@ -899,25 +899,6 @@ file: C:/Users/jean-baptiste.kerboe/Documents/GitHub/testing/ChatScript/../BOTDA
           line: 175 98
           line: 176 100
           Complexity of ^traitertranche: 1
-file: C:/Users/jean-baptiste.kerboe/Documents/GitHub/testing/ChatScript/../BOTDATA/common/macroyseop.top 0
-    macro: ^callyseop 14
-          line: 15 0
-          line: 16 27
-          line: 17 134
-          line: 18 155
-          line: 19 192
-          line: 20 209
-          line: 21 237
-          line: 23 342
-          line: 24 377
-          line: 26 505
-          line: 27 538
-          line: 29 644
-          line: 30 682
-          line: 33 778
-          line: 35 784
-          line: 36 800
-          Complexity of ^callyseop: 5
 file: C:/Users/jean-baptiste.kerboe/Documents/GitHub/testing/ChatScript/../BOTDATA/common/ontogene.top 0
     concept: ~bonjour 1
     concept: ~aurevoir 2
@@ -937,4 +918,3 @@ file: C:/Users/jean-baptiste.kerboe/Documents/GitHub/testing/ChatScript/../BOTDA
     concept: ~pays 19
     concept: ~pays_etrangers 20
     concept: ~etranger 21
-file: C:/Users/jean-baptiste.kerboe/Documents/GitHub/testing/ChatScript/../BOTDATA/common/version.top 0

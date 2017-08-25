@@ -1,21 +1,8 @@
-##<<
-todo :
-commenter
-
-
-évols :
-
-##>>
-
-
 outputmacro: ^btnRP(^label ^payload)
   ^"%[^label](reply:^payload)"
 
-# NB : on peut mettre des commandes de boutons éparpillées, mais elles seront regroupées à la fin sur l'affichage
-# format pour smooch : %[oui](reply:) %[oui](postback:)
 outputmacro: ^btn(^kind ^txt)
   ^"%[^txt](^kind:)"
-
 
 outputmacro: ^btns variable (^kind ^b1 ^b2 ^b3 ^b4 ^b5 ^b6 ^b7 ^b8 ^b9)
   if (^b1) { ^btn(^kind ^b1) }

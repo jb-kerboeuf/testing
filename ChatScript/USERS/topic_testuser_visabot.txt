@@ -1,0 +1,31 @@
+USERS/topic_testuser_visabot.txt
+jul2116 Aug25'17-11:51:12 Aug25'17-11:51:23 0 |
+1 1 0 DY 0 9 9 0 # start, input#, no rejoinder, #0topics, #1topics, layer2
+~debut ~questions #pending
+~questions + 9 q8LJv iaaaaaaaaaaaaaaaaa 1 0 0 
+#`end topics
+$cs_randindex=484
+$cs_bot=Visabot
+$cs_login=testuser
+$cs_token=2815
+$cs_control_main=~control
+$userprompt=testuser: >
+$botprompt=visabot: 
+$cs_control_post=~xpost_control
+$lastpascompris=false
+$pascompris=false
+$cs_trace=0
+#`end variables
+0 #set flags
+#`end fact sets
+#`end user facts 0
+#context ~questions 0 AIDER 
+ impots
+#`end user
+ 
+ Bonjour!\r\nJe suis Laure, votre assistante virtuelle. 
+ Comment puis-je vous aider?
+  
+ 
+ Je peux répondre à des questions un peu plus élaborées, que désirez-vous savoir à ce sujet?
+#`end chatbot

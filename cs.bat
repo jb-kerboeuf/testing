@@ -1,6 +1,6 @@
 cd ChatScript\BINARIES
 
-chatscript.exe login=testuser:visabot language=FRENCH buildfiles=../../
+chatscript.exe login=testuser:visabot buildfiles=../../
 
 
 

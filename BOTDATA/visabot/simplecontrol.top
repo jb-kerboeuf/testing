@@ -1,20 +1,18 @@
-outputmacro: bnpcreditimmo()
+outputmacro: visabot()
 	# $cs_token = #DO_INTERJECTION_SPLITTING | #DO_SUBSTITUTE_SYSTEM | #DO_NUMBER_MERGE | #DO_DATE_MERGE | #DO_PROPERNAME_MERGE | #DO_SPELLCHECK | #DO_PARSE
 	$cs_token = #DO_ESSENTIALS | #DO_NUMBER_MERGE | #DO_SUBSTITUTE_SYSTEM | #DO_SPELLCHECK
 
 	# ^addtopic(~debut)
 	$cs_control_main = ~control
 	$userprompt = ^"%user: >"
-	$botprompt = ^"bnpcreditimmo: "
+	$botprompt = ^"visabot: "
 	$cs_control_post = ~xpost_control
-	# $cs_language = french # for 7.4
-	# $cs_numbers = french # for 7.4
 
 
 table: defaultbot (^name)
 	^createfact(^name defaultbot defaultbot)
 	DATA:
-	bnpcreditimmo
+	visabot
 
 
 outputmacro: ^isInAltTopic()

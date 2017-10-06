@@ -2,135 +2,28 @@
 
 >>Reading folder ../BOTDATA/visabot/
 
-----Reading file accueil.top
-Reading topic ~debut
-*** Warning-  File ../BOTDATA/visabot/accueil.top has no utf8 BOM but has character>127
-
-----Reading file fin.top
-Reading topic ~fin
-*** Warning-  File ../BOTDATA/visabot/fin.top has no utf8 BOM but has character>127
-
-----Reading file misc.top
-Reading table ^tbl:alttopics
-Reading outputmacro: ^reprenons
-Reading topic ~aide
-Reading topic ~quietesvous
-*** Warning- line 33 of misc.top: Word est only known in opposite case
-Reading topic ~blague
-Reading topic ~version
-*** Warning-  File ../BOTDATA/visabot/misc.top has no utf8 BOM but has character>127
-
-----Reading file questions.top
-Reading outputmacro: ^derog
-Reading outputmacro: ^garanties
-Reading outputmacro: ^liensimu
-Reading topic ~questions
-*** Warning- line 119 of questions.top: Word avant only known in opposite case
-*** Warning- line 119 of questions.top: Word des only known in opposite case
-*** Warning- line 119 of questions.top: Keyword MAD should not be uppercase - did prior rule fail to close
-*** Warning- line 132 of questions.top: Word signe only known in opposite case
-*** Warning- line 206 of questions.top: Keyword DIE should not be uppercase - did prior rule fail to close
-*** Warning- line 206 of questions.top: Word perdue only known in opposite case
-*** Warning- line 213 of questions.top: Keyword MAESTRO should not be uppercase - did prior rule fail to close
-*** Warning- line 240 of questions.top: Keyword DIE should not be uppercase - did prior rule fail to close
-*** Warning- line 246 of questions.top: Keyword MAESTRO should not be uppercase - did prior rule fail to close
-*** Warning- line 265 of questions.top: Keyword DIE should not be uppercase - did prior rule fail to close
-*** Warning- line 275 of questions.top: Keyword MAESTRO should not be uppercase - did prior rule fail to close
-*** Warning- line 378 of questions.top: Substitutes.txt changes que to queue anywhere in input
-*** Warning- line 464 of questions.top: Word prix only known in opposite case
-*** Warning- line 470 of questions.top: Substitutes.txt changes que to queue anywhere in input
-*** Warning- line 600 of questions.top: Word tarif only known in opposite case
-*** Warning-  File ../BOTDATA/visabot/questions.top has no utf8 BOM but has character>127
-
-----Reading file simplecontrol.top
-Reading outputmacro: ^visabot
-Reading table ^tbl:defaultbot
-Reading outputmacro: ^isinalttopic
-Reading outputmacro: ^fromoobtomain
-Reading topic ~xpost_control
-Reading topic ~control
-*** Warning-  File ../BOTDATA/visabot/simplecontrol.top has no utf8 BOM but has character>127
-
-<<end folder ../BOTDATA/visabot
-
->>Reading folder ../BOTDATA/common/
-
-----Reading file alttopics.top
-Reading outputmacro: ^tryalttopics
-
 ----Reading file buttons.top
 Reading outputmacro: ^btnrp
 Reading outputmacro: ^btn
 Reading outputmacro: ^btns
 
-----Reading file chiffres.top
-Reading concept ~chiffre
-*** Warning- line 1 of chiffres.top: Word trois only known in opposite case
-*** Warning- line 1 of chiffres.top: Word dix only known in opposite case
-Reading table ^tbl:nombres
-Reading outputmacro: ^correspondnb
-Reading outputmacro: ^traiternombre
-Reading outputmacro: ^traitertranche
-*** Warning-  File ../BOTDATA/common/chiffres.top has no utf8 BOM but has character>127
+----Reading file flight.top
+Reading topic ~flight
 
-----Reading file ontogene.top
-Reading concept ~bonjour
-*** Warning- line 1 of ontogene.top: Word bonjour only known in opposite case
-*** Warning- line 1 of ontogene.top: Word bienvenue only known in opposite case
-*** Warning- line 1 of ontogene.top: Word hola only known in opposite case
-Reading concept ~aurevoir
-Reading concept ~oui
-Reading concept ~non
-Reading concept ~bof
-Reading concept ~rien
-Reading concept ~compris
-Reading concept ~inconnu
-Reading concept ~exclu
-Reading concept ~credit
-Reading concept ~habitatm
-Reading concept ~habitatf
-Reading concept ~habitatp
-Reading concept ~habitation
-Reading concept ~immobilier
-*** Warning- line 17 of ontogene.top: Word moulin only known in opposite case
-Reading concept ~pays
-Reading concept ~pays_etrangers
-Reading concept ~etranger
-*** Warning-  File ../BOTDATA/common/ontogene.top has no utf8 BOM but has character>127
+----Reading file hello.top
+Reading topic ~hello
 
-<<end folder ../BOTDATA/common
+----Reading file simplecontrol.top
+Reading outputmacro: ^visabot
+Reading table ^tbl:defaultbot
+Reading outputmacro: ^fromoobtomain
+Reading topic ~xpost_control
+Reading topic ~control
 
-WARNING SUMMARY: 
-  line 40 of : File ../BOTDATA/visabot/accueil.top has no utf8 BOM but has character>127
+<<end folder ../BOTDATA/visabot
+No errors or warnings
 
-  line 27 of : File ../BOTDATA/visabot/fin.top has no utf8 BOM but has character>127
 
-  line 70 of : File ../BOTDATA/visabot/misc.top has no utf8 BOM but has character>127
-
-  line 119 of questions.top: Keyword MAD should not be uppercase - did prior rule fail to close
-
-  line 206 of questions.top: Keyword DIE should not be uppercase - did prior rule fail to close
-
-  line 213 of questions.top: Keyword MAESTRO should not be uppercase - did prior rule fail to close
-
-  line 240 of questions.top: Keyword DIE should not be uppercase - did prior rule fail to close
-
-  line 246 of questions.top: Keyword MAESTRO should not be uppercase - did prior rule fail to close
-
-  line 265 of questions.top: Keyword DIE should not be uppercase - did prior rule fail to close
-
-  line 275 of questions.top: Keyword MAESTRO should not be uppercase - did prior rule fail to close
-
-  line 683 of : File ../BOTDATA/visabot/questions.top has no utf8 BOM but has character>127
-
-  line 118 of : File ../BOTDATA/visabot/simplecontrol.top has no utf8 BOM but has character>127
-
-  line 179 of : File ../BOTDATA/common/chiffres.top has no utf8 BOM but has character>127
-
-  line 22 of : File ../BOTDATA/common/ontogene.top has no utf8 BOM but has character>127
-
-14 serious warnings, 0 function warnings, 0 spelling warnings, 13 case warnings, 2 substitution warnings
-    
 
 Finished compile
 

@@ -1,829 +1,4 @@
-﻿file: C:/Users/jean-baptiste.kerboe/Documents/GitHub/testing/ChatScript/../BOTDATA/visabot/accueil.top 0
-    topic: ~debut 1
-        rule: ~debut.0.0 t:  3
-          line: 4 0
-          line: 5 5
-          line: 6 51
-          line: 7 54
-          Complexity of rule ~debut.0.0- t: 1
-        rule: ~debut.1.0 t:  9
-          line: 10 0
-          line: 11 5
-          line: 12 51
-          Complexity of rule ~debut.1.0- t: 1
-        rule: ~debut.2.0 t:  14
-          line: 14 0
-          line: 15 10
-          line: 17 34
-          line: 18 46
-          line: 20 120
-          line: 21 141
-          Complexity of rule ~debut.2.0- t: 2
-        rule: ~debut.3.0 t:  24
-          line: 24 0
-          line: 26 10
-          line: 27 47
-          Complexity of rule ~debut.3.0- t: 1
-        rule: ~debut.4.0 u:  29
-          line: 30 0
-          line: 31 10
-          Complexity of rule ~debut.4.0- u: 1
-        rule: ~debut.5.0 u:  33
-          line: 34 0
-          line: 35 10
-          Complexity of rule ~debut.5.0- u: 1
-file: C:/Users/jean-baptiste.kerboe/Documents/GitHub/testing/ChatScript/../BOTDATA/visabot/fin.top 0
-    topic: ~fin 1
-        rule: ~fin.0.0 u:  3
-          line: 3 0
-          line: 4 10
-          line: 6 34
-          Complexity of rule ~fin.0.0- u: 2
-        rule: ~fin.1.0 t:  9
-          line: 9 0
-          line: 10 10
-          Complexity of rule ~fin.1.0- t: 1
-        rule: ~fin.2.0 ?:  12
-          line: 12 0
-          line: 13 10
-          Complexity of rule ~fin.2.0- ?: 1
-        rule: ~fin.3.0-DISPO u:  15
-          line: 15 0
-          line: 16 10
-          Complexity of rule ~fin.3.0-DISPO u: 1
-        rule: ~fin.4.0 u:  18
-          line: 18 0
-          line: 19 10
-          Complexity of rule ~fin.4.0- u: 1
-        rule: ~fin.5.0 u:  21
-          line: 21 0
-          line: 22 10
-          line: 23 13
-          Complexity of rule ~fin.5.0- u: 1
-file: C:/Users/jean-baptiste.kerboe/Documents/GitHub/testing/ChatScript/../BOTDATA/visabot/misc.top 0
-          line: 2 0
-    macro: ^reprenons 9
-          line: 11 0
-          line: 12 3
-          line: 13 34
-          line: 14 40
-          Complexity of ^reprenons: 1
-    topic: ~aide 17
-        rule: ~aide.0.0 u:  18
-          line: 18 0
-          line: 19 10
-          line: 20 138
-          line: 21 278
-          line: 22 304
-          line: 23 336
-          line: 24 362
-          line: 25 425
-          line: 26 462
-          line: 27 511
-          line: 28 542
-          line: 29 545
-          Complexity of rule ~aide.0.0- u: 1
-    topic: ~quietesvous 32
-        rule: ~quietesvous.0.0 u:  33
-          line: 33 0
-          line: 34 10
-          line: 35 95
-          line: 36 136
-          Complexity of rule ~quietesvous.0.0- u: 1
-    topic: ~blague 39
-        rule: ~blague.0.0 u:  40
-          line: 40 0
-          Complexity of rule ~blague.0.0- u: 1
-        rule: ~blague.0.1 a:  41
-          line: 41 0
-          line: 42 8
-          Complexity of rule ~blague.0.1- a: 1
-        rule: ~blague.0.2 a:  43
-          line: 44 0
-          Complexity of rule ~blague.0.2- a: 1
-        rule: ~blague.1.0 u:  45
-          line: 46 0
-          line: 47 54
-          line: 48 69
-          Complexity of rule ~blague.1.0- u: 1
-        rule: ~blague.2.0 u:  49
-          line: 50 0
-          line: 51 45
-          Complexity of rule ~blague.2.0- u: 1
-        rule: ~blague.3.0 u:  52
-          line: 53 0
-          line: 54 45
-          line: 55 67
-          Complexity of rule ~blague.3.0- u: 1
-        rule: ~blague.4.0 u:  56
-          line: 56 0
-          line: 57 10
-          line: 58 96
-          Complexity of rule ~blague.4.0- u: 1
-    topic: ~version 61
-        rule: ~version.0.0 u:  62
-          line: 62 0
-          line: 63 10
-          line: 64 16
-          line: 65 29
-          line: 66 41
-          Complexity of rule ~version.0.0- u: 1
-file: C:/Users/jean-baptiste.kerboe/Documents/GitHub/testing/ChatScript/../BOTDATA/visabot/questions.top 0
-    macro: ^derog 1
-          line: 2 0
-          line: 3 15
-          line: 4 79
-          line: 5 149
-          Complexity of ^derog: 4
-    macro: ^garanties 7
-          line: 8 0
-          line: 9 8
-          Complexity of ^garanties: 1
-    macro: ^liensimu 11
-          line: 12 0
-          line: 13 9
-          Complexity of ^liensimu: 1
-    topic: ~questions 15
-        rule: ~questions.0.0-AIDER t:  23
-          line: 24 0
-          Complexity of rule ~questions.0.0-AIDER t: 1
-        rule: ~questions.1.0-AUTRE t:  26
-          line: 26 0
-          line: 28 10
-          Complexity of rule ~questions.1.0-AUTRE t: 1
-        rule: ~questions.1.1 a:  29
-          line: 30 0
-          Complexity of rule ~questions.1.1- a: 1
-        rule: ~questions.1.2 a:  31
-          line: 32 0
-          Complexity of rule ~questions.1.2- a: 1
-        rule: ~questions.2.0-ECOUTE t:  34
-          line: 34 0
-          line: 35 10
-          Complexity of rule ~questions.2.0-ECOUTE t: 1
-        rule: ~questions.3.0 u:  44
-          line: 44 0
-          line: 45 10
-          line: 46 261
-          line: 47 407
-          line: 48 410
-          Complexity of rule ~questions.3.0- u: 1
-        rule: ~questions.4.0 u:  53
-          line: 53 0
-          line: 54 10
-          line: 55 93
-          line: 56 204
-          line: 57 312
-          Complexity of rule ~questions.4.0- u: 1
-        rule: ~questions.5.0 u:  66
-          line: 66 0
-          line: 67 10
-          line: 68 180
-          line: 69 287
-          line: 70 400
-          line: 71 403
-          Complexity of rule ~questions.5.0- u: 1
-        rule: ~questions.6.0 u:  75
-          line: 75 0
-          line: 76 10
-          line: 77 241
-          line: 78 387
-          line: 79 390
-          Complexity of rule ~questions.6.0- u: 1
-        rule: ~questions.7.0 u:  84
-          line: 84 0
-          line: 85 10
-          line: 86 206
-          line: 87 304
-          line: 88 339
-          line: 89 342
-          line: 90 424
-          line: 91 540
-          line: 92 635
-          line: 93 705
-          line: 94 708
-          line: 95 992
-          Complexity of rule ~questions.7.0- u: 1
-        rule: ~questions.8.0 u:  99
-          line: 99 0
-          line: 100 10
-          line: 101 140
-          line: 102 143
-          line: 103 183
-          line: 104 487
-          line: 105 490
-          Complexity of rule ~questions.8.0- u: 1
-        rule: ~questions.9.0 u:  109
-          line: 109 0
-          line: 110 10
-          line: 111 292
-          line: 112 309
-          line: 113 388
-          Complexity of rule ~questions.9.0- u: 1
-        rule: ~questions.10.0 u:  119
-          line: 119 0
-          line: 120 10
-          Complexity of rule ~questions.10.0- u: 1
-        rule: ~questions.11.0 u:  123
-          line: 123 0
-          line: 124 10
-          line: 125 238
-          line: 126 384
-          line: 127 509
-          Complexity of rule ~questions.11.0- u: 1
-        rule: ~questions.12.0 u:  132
-          line: 132 0
-          line: 133 10
-          line: 134 140
-          line: 135 215
-          line: 136 218
-          line: 137 232
-          line: 138 265
-          line: 139 349
-          Complexity of rule ~questions.12.0- u: 1
-        rule: ~questions.13.0 u:  145
-          line: 145 0
-          line: 146 10
-          line: 147 133
-          line: 148 313
-          line: 149 345
-          line: 150 395
-          line: 151 445
-          line: 152 481
-          line: 153 484
-          line: 154 623
-          line: 155 626
-          line: 156 640
-          line: 157 673
-          Complexity of rule ~questions.13.0- u: 1
-        rule: ~questions.14.0 u:  164
-          line: 164 0
-          line: 165 10
-          line: 166 133
-          line: 167 347
-          line: 168 540
-          line: 169 543
-          line: 170 554
-          line: 171 590
-          Complexity of rule ~questions.14.0- u: 1
-        rule: ~questions.15.0 u:  178
-          line: 178 0
-          line: 179 10
-          line: 180 99
-          line: 181 178
-          line: 182 181
-          line: 183 195
-          line: 184 226
-          Complexity of rule ~questions.15.0- u: 1
-        rule: ~questions.16.0 u:  191
-          line: 191 0
-          line: 192 10
-          line: 193 119
-          line: 194 257
-          line: 195 312
-          Complexity of rule ~questions.16.0- u: 1
-        rule: ~questions.17.0 u:  202
-          line: 202 0
-          line: 203 10
-          line: 204 77
-          Complexity of rule ~questions.17.0- u: 1
-        rule: ~questions.18.0-A1 u:  206
-          line: 206 0
-          line: 207 10
-          line: 208 96
-          line: 209 99
-          Complexity of rule ~questions.18.0-A1 u: 1
-        rule: ~questions.18.1 a:  210
-          line: 210 0
-          Complexity of rule ~questions.18.1- a: 1
-        rule: ~questions.18.2 a:  211
-          line: 211 0
-          Complexity of rule ~questions.18.2- a: 1
-        rule: ~questions.19.0-A2 u:  213
-          line: 213 0
-          line: 214 10
-          line: 215 73
-          line: 216 76
-          Complexity of rule ~questions.19.0-A2 u: 1
-        rule: ~questions.19.1 a:  217
-          line: 217 0
-          Complexity of rule ~questions.19.1- a: 1
-        rule: ~questions.19.2 a:  218
-          line: 218 0
-          Complexity of rule ~questions.19.2- a: 1
-        rule: ~questions.20.0-A3 u:  220
-          line: 220 0
-          line: 221 10
-          line: 222 167
-          line: 223 170
-          Complexity of rule ~questions.20.0-A3 u: 1
-        rule: ~questions.20.1 a:  224
-          line: 224 0
-          Complexity of rule ~questions.20.1- a: 1
-        rule: ~questions.20.2 a:  225
-          line: 225 0
-          Complexity of rule ~questions.20.2- a: 1
-        rule: ~questions.21.0 u:  230
-          line: 230 0
-          line: 231 10
-          line: 232 152
-          line: 233 155
-          Complexity of rule ~questions.21.0- u: 1
-        rule: ~questions.21.1 a:  234
-          line: 234 0
-          Complexity of rule ~questions.21.1- a: 1
-        rule: ~questions.21.2 a:  235
-          line: 235 0
-          Complexity of rule ~questions.21.2- a: 1
-        rule: ~questions.21.3 a:  236
-          line: 236 0
-          Complexity of rule ~questions.21.3- a: 1
-        rule: ~questions.22.0-B1 u:  240
-          line: 240 0
-          line: 241 10
-          line: 242 128
-          line: 243 131
-          Complexity of rule ~questions.22.0-B1 u: 1
-        rule: ~questions.22.1 a:  244
-          line: 244 0
-          Complexity of rule ~questions.22.1- a: 1
-        rule: ~questions.23.0-B2 u:  246
-          line: 246 0
-          line: 247 10
-          line: 248 73
-          line: 249 76
-          Complexity of rule ~questions.23.0-B2 u: 1
-        rule: ~questions.23.1 a:  250
-          line: 250 0
-          Complexity of rule ~questions.23.1- a: 1
-        rule: ~questions.24.0 u:  257
-          line: 257 0
-          line: 258 10
-          line: 259 299
-          line: 260 302
-          Complexity of rule ~questions.24.0- u: 1
-        rule: ~questions.24.1 a:  261
-          line: 261 0
-          Complexity of rule ~questions.24.1- a: 1
-        rule: ~questions.24.2 a:  262
-          line: 262 0
-          Complexity of rule ~questions.24.2- a: 1
-        rule: ~questions.25.0-C1 u:  265
-          line: 265 0
-          line: 266 10
-          line: 267 66
-          line: 268 161
-          line: 269 323
-          line: 270 445
-          line: 271 448
-          Complexity of rule ~questions.25.0-C1 u: 1
-        rule: ~questions.25.1 a:  272
-          line: 272 0
-          Complexity of rule ~questions.25.1- a: 1
-        rule: ~questions.25.2 a:  273
-          line: 273 0
-          Complexity of rule ~questions.25.2- a: 1
-        rule: ~questions.26.0-C2 u:  275
-          line: 275 0
-          line: 276 10
-          line: 277 73
-          line: 278 76
-          Complexity of rule ~questions.26.0-C2 u: 1
-        rule: ~questions.26.1 a:  279
-          line: 279 0
-          Complexity of rule ~questions.26.1- a: 1
-        rule: ~questions.26.2 a:  280
-          line: 280 0
-          Complexity of rule ~questions.26.2- a: 1
-        rule: ~questions.27.0-C3 u:  282
-          line: 282 0
-          line: 283 10
-          line: 284 157
-          line: 285 160
-          Complexity of rule ~questions.27.0-C3 u: 1
-        rule: ~questions.27.1 a:  286
-          line: 286 0
-          Complexity of rule ~questions.27.1- a: 1
-        rule: ~questions.27.2 a:  287
-          line: 287 0
-          Complexity of rule ~questions.27.2- a: 1
-        rule: ~questions.28.0-PROROG u:  294
-          line: 294 0
-          line: 295 10
-          line: 296 119
-          line: 297 122
-          Complexity of rule ~questions.28.0-PROROG u: 1
-        rule: ~questions.28.1 a:  298
-          line: 298 0
-          Complexity of rule ~questions.28.1- a: 1
-        rule: ~questions.28.2 a:  299
-          line: 299 0
-          Complexity of rule ~questions.28.2- a: 1
-        rule: ~questions.28.3 a:  300
-          line: 300 0
-          Complexity of rule ~questions.28.3- a: 1
-        rule: ~questions.29.0 u:  302
-          line: 302 0
-          line: 303 10
-          Complexity of rule ~questions.29.0- u: 1
-        rule: ~questions.30.0 u:  317
-          line: 317 0
-          line: 318 10
-          line: 319 192
-          Complexity of rule ~questions.30.0- u: 1
-        rule: ~questions.31.0 u:  324
-          line: 324 0
-          line: 325 10
-          line: 326 88
-          Complexity of rule ~questions.31.0- u: 1
-        rule: ~questions.32.0 u:  331
-          line: 331 0
-          line: 332 10
-          line: 333 320
-          Complexity of rule ~questions.32.0- u: 1
-        rule: ~questions.33.0 u:  334
-          line: 334 0
-          line: 335 10
-          line: 336 300
-          Complexity of rule ~questions.33.0- u: 1
-        rule: ~questions.34.0 u:  338
-          line: 338 0
-          line: 339 10
-          line: 340 142
-          Complexity of rule ~questions.34.0- u: 1
-        rule: ~questions.35.0 u:  343
-          line: 343 0
-          line: 344 10
-          line: 345 139
-          Complexity of rule ~questions.35.0- u: 1
-        rule: ~questions.36.0 u:  351
-          line: 351 0
-          line: 352 10
-          line: 353 168
-          Complexity of rule ~questions.36.0- u: 1
-        rule: ~questions.37.0 u:  363
-          line: 363 0
-          line: 364 10
-          line: 365 65
-          line: 366 113
-          line: 367 176
-          Complexity of rule ~questions.37.0- u: 1
-        rule: ~questions.38.0 u:  378
-          line: 378 0
-          line: 379 10
-          line: 380 104
-          line: 381 121
-          Complexity of rule ~questions.38.0- u: 1
-        rule: ~questions.38.1 a:  382
-          line: 383 0
-          line: 384 52
-          line: 385 136
-          line: 386 191
-          line: 387 250
-          line: 388 449
-          line: 389 491
-          line: 390 567
-          Complexity of rule ~questions.38.1- a: 1
-        rule: ~questions.38.2 a:  391
-          line: 392 0
-          Complexity of rule ~questions.38.2- a: 1
-        rule: ~questions.39.0 u:  395
-          line: 395 0
-          line: 396 10
-          line: 397 105
-          Complexity of rule ~questions.39.0- u: 1
-        rule: ~questions.40.0 u:  402
-          line: 402 0
-          line: 403 10
-          line: 404 151
-          Complexity of rule ~questions.40.0- u: 1
-        rule: ~questions.40.1 a:  405
-          line: 406 0
-          line: 407 41
-          line: 408 150
-          line: 409 234
-          line: 410 289
-          line: 411 348
-          line: 412 547
-          line: 413 589
-          line: 414 805
-          Complexity of rule ~questions.40.1- a: 1
-        rule: ~questions.40.2 a:  415
-          line: 416 0
-          Complexity of rule ~questions.40.2- a: 1
-        rule: ~questions.41.0 u:  422
-          line: 422 0
-          line: 423 10
-          line: 424 23
-          Complexity of rule ~questions.41.0- u: 1
-        rule: ~questions.42.0-ELIGI u:  433
-          line: 433 0
-          line: 434 10
-          line: 435 359
-          line: 436 505
-          line: 437 630
-          Complexity of rule ~questions.42.0-ELIGI u: 1
-        rule: ~questions.43.0 u:  443
-          line: 443 0
-          line: 444 10
-          line: 445 158
-          line: 446 274
-          line: 447 322
-          line: 448 471
-          line: 449 583
-          line: 450 755
-          line: 451 842
-          line: 452 845
-          line: 453 966
-          Complexity of rule ~questions.43.0- u: 1
-        rule: ~questions.44.0 u:  456
-          line: 456 0
-          line: 457 10
-          line: 458 68
-          Complexity of rule ~questions.44.0- u: 1
-        rule: ~questions.45.0 u:  464
-          line: 464 0
-          line: 465 10
-          line: 466 161
-          Complexity of rule ~questions.45.0- u: 1
-        rule: ~questions.46.0 u:  470
-          line: 470 0
-          line: 471 10
-          line: 472 204
-          Complexity of rule ~questions.46.0- u: 1
-        rule: ~questions.47.0 u:  477
-          line: 477 0
-          line: 478 10
-          line: 479 394
-          line: 480 397
-          Complexity of rule ~questions.47.0- u: 1
-        rule: ~questions.47.1 a:  481
-          line: 482 0
-          line: 483 172
-          line: 484 175
-          line: 485 289
-          line: 486 473
-          line: 487 476
-          line: 488 707
-          line: 489 982
-          Complexity of rule ~questions.47.1- a: 1
-        rule: ~questions.47.2 a:  490
-          line: 491 0
-          Complexity of rule ~questions.47.2- a: 1
-        rule: ~questions.48.0 u:  496
-          line: 496 0
-          line: 497 10
-          line: 498 392
-          Complexity of rule ~questions.48.0- u: 1
-        rule: ~questions.48.1 a:  499
-          line: 500 0
-          line: 501 61
-          line: 502 64
-          line: 503 222
-          line: 504 225
-          line: 505 513
-          line: 506 1057
-          line: 507 1060
-          line: 508 1255
-          Complexity of rule ~questions.48.1- a: 1
-        rule: ~questions.48.2 a:  509
-          line: 510 0
-          Complexity of rule ~questions.48.2- a: 1
-        rule: ~questions.49.0 u:  515
-          line: 515 0
-          line: 516 10
-          line: 517 235
-          line: 518 238
-          line: 519 750
-          line: 520 753
-          line: 521 902
-          line: 522 905
-          line: 523 1178
-          Complexity of rule ~questions.49.0- u: 1
-        rule: ~questions.50.0 u:  528
-          line: 528 0
-          line: 529 10
-          line: 530 405
-          line: 531 416
-          line: 532 450
-          Complexity of rule ~questions.50.0- u: 1
-        rule: ~questions.50.1 a:  533
-          line: 534 0
-          line: 535 300
-          line: 536 303
-          line: 537 486
-          line: 538 489
-          line: 539 1025
-          Complexity of rule ~questions.50.1- a: 1
-        rule: ~questions.50.2 a:  540
-          line: 541 0
-          line: 542 225
-          line: 543 228
-          line: 544 740
-          line: 545 743
-          line: 546 1016
-          Complexity of rule ~questions.50.2- a: 1
-        rule: ~questions.51.0-PPD u:  549
-          line: 549 0
-          line: 550 10
-          line: 551 303
-          Complexity of rule ~questions.51.0-PPD u: 1
-        rule: ~questions.52.0 u:  554
-          line: 554 0
-          line: 555 10
-          Complexity of rule ~questions.52.0- u: 1
-        rule: ~questions.53.0 u:  558
-          line: 558 0
-          line: 559 10
-          line: 560 265
-          line: 561 315
-          line: 562 325
-          Complexity of rule ~questions.53.0- u: 1
-        rule: ~questions.54.0 u:  565
-          line: 565 0
-          line: 566 10
-          line: 567 265
-          line: 568 315
-          line: 569 325
-          Complexity of rule ~questions.54.0- u: 1
-        rule: ~questions.55.0 u:  572
-          line: 572 0
-          line: 573 10
-          line: 574 275
-          Complexity of rule ~questions.55.0- u: 1
-        rule: ~questions.56.0 u:  600
-          line: 600 0
-          line: 601 10
-          line: 602 106
-          Complexity of rule ~questions.56.0- u: 1
-        rule: ~questions.57.0 u:  608
-          line: 608 0
-          line: 609 10
-          Complexity of rule ~questions.57.0- u: 1
-        rule: ~questions.57.1 a:  610
-          line: 611 0
-          Complexity of rule ~questions.57.1- a: 1
-        rule: ~questions.57.2 a:  612
-          line: 613 0
-          Complexity of rule ~questions.57.2- a: 1
-        rule: ~questions.58.0 u:  615
-          line: 615 0
-          line: 616 10
-          Complexity of rule ~questions.58.0- u: 1
-        rule: ~questions.58.1 a:  617
-          line: 618 0
-          Complexity of rule ~questions.58.1- a: 1
-        rule: ~questions.58.2 a:  619
-          line: 620 0
-          Complexity of rule ~questions.58.2- a: 1
-        rule: ~questions.59.0 u:  622
-          line: 622 0
-          line: 623 10
-          Complexity of rule ~questions.59.0- u: 1
-        rule: ~questions.59.1 a:  624
-          line: 625 0
-          Complexity of rule ~questions.59.1- a: 1
-        rule: ~questions.59.2 a:  626
-          line: 627 0
-          Complexity of rule ~questions.59.2- a: 1
-        rule: ~questions.60.0 u:  629
-          line: 629 0
-          line: 630 10
-          Complexity of rule ~questions.60.0- u: 1
-        rule: ~questions.60.1 a:  631
-          line: 632 0
-          Complexity of rule ~questions.60.1- a: 1
-        rule: ~questions.60.2 a:  633
-          line: 634 0
-          Complexity of rule ~questions.60.2- a: 1
-        rule: ~questions.61.0 s:  640
-          line: 640 0
-          line: 641 10
-          Complexity of rule ~questions.61.0- s: 1
-        rule: ~questions.62.0 s:  643
-          line: 643 0
-          line: 644 10
-          Complexity of rule ~questions.62.0- s: 1
-        rule: ~questions.63.0 u:  648
-          line: 648 0
-          line: 649 10
-          line: 650 24
-          line: 651 67
-          Complexity of rule ~questions.63.0- u: 1
-        rule: ~questions.64.0 u:  654
-          line: 654 0
-          line: 655 10
-          Complexity of rule ~questions.64.0- u: 1
-        rule: ~questions.65.0 u:  657
-          line: 657 0
-          line: 658 10
-          line: 659 46
-          Complexity of rule ~questions.65.0- u: 1
-        rule: ~questions.66.0 u:  661
-          line: 661 0
-          line: 662 10
-          Complexity of rule ~questions.66.0- u: 1
-        rule: ~questions.67.0 ?:  664
-          line: 664 0
-          line: 665 10
-          Complexity of rule ~questions.67.0- ?: 1
-        rule: ~questions.68.0 u:  668
-          line: 668 0
-          line: 669 10
-          Complexity of rule ~questions.68.0- u: 1
-        rule: ~questions.69.0 u:  671
-          line: 671 0
-          line: 672 10
-          line: 673 24
-          Complexity of rule ~questions.69.0- u: 1
-        rule: ~questions.70.0 u:  675
-          line: 675 0
-          line: 676 10
-          line: 677 24
-          line: 679 90
-          Complexity of rule ~questions.70.0- u: 1
-file: C:/Users/jean-baptiste.kerboe/Documents/GitHub/testing/ChatScript/../BOTDATA/visabot/simplecontrol.top 0
-    macro: ^visabot 1
-          line: 3 0
-          line: 6 28
-          line: 7 52
-          line: 8 75
-          line: 9 100
-          Complexity of ^visabot: 1
-          line: 13 0
-    macro: ^isinalttopic 18
-          line: 19 0
-          line: 21 57
-          line: 22 59
-          line: 23 85
-          line: 24 87
-          Complexity of ^isinalttopic: 2
-    macro: ^fromoobtomain 26
-          line: 28 0
-          line: 30 16
-          Complexity of ^fromoobtomain: 1
-    topic: ~xpost_control 33
-        rule: ~xpost_control.0.0 t:  34
-          line: 34 0
-          line: 38 10
-          line: 39 73
-          line: 40 132
-          line: 41 179
-          Complexity of rule ~xpost_control.0.0- t: 2
-    topic: ~control 43
-        rule: ~control.0.0 u:  44
-          line: 46 0
-          line: 49 20
-          line: 50 41
-          line: 52 62
-          line: 53 100
-          line: 55 162
-          line: 56 183
-          line: 62 204
-          line: 63 218
-          line: 64 302
-          line: 65 320
-          line: 68 358
-          line: 70 396
-          Complexity of rule ~control.0.0- u: 3
-        rule: ~control.1.0-MAIN u:  72
-          line: 76 0
-          line: 77 23
-          line: 78 44
-          line: 82 58
-          line: 84 104
-          line: 85 139
-          line: 86 208
-          line: 88 282
-          line: 90 329
-          line: 93 368
-          line: 96 395
-          line: 97 418
-          line: 98 443
-          line: 100 482
-          line: 101 543
-          line: 102 578
-          line: 103 668
-          line: 105 763
-          line: 106 790
-          line: 108 832
-          line: 110 855
-          line: 112 894
-          line: 113 900
-          line: 114 906
-          Complexity of rule ~control.1.0-MAIN u: 10
-file: C:/Users/jean-baptiste.kerboe/Documents/GitHub/testing/ChatScript/../BOTDATA/common/alttopics.top 0
-    macro: ^tryalttopics 2
-          line: 3 0
-          line: 4 41
-          line: 5 52
-          line: 6 79
-          line: 8 119
-          line: 9 161
-          line: 10 212
-          line: 11 218
-          Complexity of ^tryalttopics: 2
-file: C:/Users/jean-baptiste.kerboe/Documents/GitHub/testing/ChatScript/../BOTDATA/common/buttons.top 0
+﻿file: C:/Users/jean-baptiste.kerboe/Documents/GitHub/testing/ChatScript/../BOTDATA/visabot/buttons.top 0
     macro: ^btnrp 1
           Complexity of ^btnrp: 1
     macro: ^btn 4
@@ -840,81 +15,180 @@ file: C:/Users/jean-baptiste.kerboe/Documents/GitHub/testing/ChatScript/../BOTDA
           line: 16 314
           line: 18 354
           Complexity of ^btns: 10
-file: C:/Users/jean-baptiste.kerboe/Documents/GitHub/testing/ChatScript/../BOTDATA/common/chiffres.top 0
-    concept: ~chiffre 1
+file: C:/Users/jean-baptiste.kerboe/Documents/GitHub/testing/ChatScript/../BOTDATA/visabot/flight.top 0
+    topic: ~flight 1
+        rule: ~flight.0.0-RECAP t:  3
+          line: 3 0
+          line: 4 10
+          line: 5 49
+          line: 6 128
+          line: 7 184
+          line: 8 213
+          line: 9 237
+          Complexity of rule ~flight.0.0-RECAP t: 1
+        rule: ~flight.1.0 t:  11
+          line: 11 0
+          line: 12 10
+          Complexity of rule ~flight.1.0- t: 1
+        rule: ~flight.1.1 a:  13
+          line: 14 0
+          Complexity of rule ~flight.1.1- a: 1
+        rule: ~flight.2.0 t:  16
+          line: 16 0
+          line: 17 10
+          Complexity of rule ~flight.2.0- t: 1
+        rule: ~flight.2.1 a:  18
+          line: 19 0
+          Complexity of rule ~flight.2.1- a: 1
+        rule: ~flight.3.0 t:  21
+          line: 21 0
+          line: 22 10
+          Complexity of rule ~flight.3.0- t: 1
+        rule: ~flight.3.1 a:  23
+          line: 24 0
+          Complexity of rule ~flight.3.1- a: 1
+        rule: ~flight.4.0 t:  26
+          line: 26 0
+          line: 27 10
+          Complexity of rule ~flight.4.0- t: 1
+        rule: ~flight.4.1 a:  28
+          line: 29 0
+          Complexity of rule ~flight.4.1- a: 1
+        rule: ~flight.5.0 t:  31
+          line: 31 0
+          line: 32 10
+          Complexity of rule ~flight.5.0- t: 1
+        rule: ~flight.5.1 a:  33
+          line: 34 0
+          Complexity of rule ~flight.5.1- a: 1
+        rule: ~flight.5.2 a:  35
+          line: 36 0
+          Complexity of rule ~flight.5.2- a: 1
+        rule: ~flight.6.0 t:  38
+          line: 38 0
+          line: 39 10
+          Complexity of rule ~flight.6.0- t: 1
+        rule: ~flight.6.1 a:  40
+          line: 41 0
+          Complexity of rule ~flight.6.1- a: 1
+        rule: ~flight.6.2 a:  42
+          line: 43 0
+          Complexity of rule ~flight.6.2- a: 1
+        rule: ~flight.7.0 t:  45
+          line: 45 0
+          line: 46 10
+          Complexity of rule ~flight.7.0- t: 1
+        rule: ~flight.7.1 a:  47
+          line: 48 0
+          Complexity of rule ~flight.7.1- a: 1
+        rule: ~flight.7.2 a:  49
+          line: 50 0
+          Complexity of rule ~flight.7.2- a: 1
+        rule: ~flight.8.0 t:  52
+          line: 52 0
+          line: 53 10
+          Complexity of rule ~flight.8.0- t: 1
+        rule: ~flight.8.1 a:  54
+          line: 55 0
+          Complexity of rule ~flight.8.1- a: 1
+        rule: ~flight.8.2 a:  56
+          line: 57 0
+          Complexity of rule ~flight.8.2- a: 1
+        rule: ~flight.9.0 t:  59
+          line: 59 0
+          line: 60 10
+          Complexity of rule ~flight.9.0- t: 1
+        rule: ~flight.9.1 a:  61
+          line: 62 0
+          line: 63 11
+          line: 64 25
+          Complexity of rule ~flight.9.1- a: 1
+file: C:/Users/jean-baptiste.kerboe/Documents/GitHub/testing/ChatScript/../BOTDATA/visabot/hello.top 0
+    topic: ~hello 1
+        rule: ~hello.0.0 u:  3
           line: 4 0
-          line: 5 33
-    macro: ^correspondnb 121
-          line: 122 0
-          line: 123 42
-          line: 124 80
-          line: 125 122
-          line: 126 134
-          line: 127 143
-          line: 128 147
-          line: 129 168
-          line: 130 170
-          Complexity of ^correspondnb: 2
-    macro: ^traiternombre 132
-          line: 133 0
-          line: 134 6
-          line: 135 16
-          line: 136 41
-          line: 137 58
-          line: 138 67
-          line: 139 91
-          line: 140 123
-          line: 141 183
-          line: 142 211
-          line: 144 244
-          line: 145 273
-          line: 146 304
-          line: 147 331
-          line: 148 380
-          line: 150 394
-          line: 151 411
-          line: 152 416
-          line: 153 437
-          line: 154 468
-          line: 155 495
-          line: 156 536
-          line: 157 568
-          line: 158 574
-          line: 159 630
-          line: 160 677
-          line: 161 728
-          line: 162 749
-          line: 163 763
-          line: 164 777
-          line: 165 782
-          line: 166 788
-          line: 167 794
-          line: 168 808
-          Complexity of ^traiternombre: 9
-    macro: ^traitertranche 170
-          line: 171 0
-          line: 172 29
-          line: 173 58
-          line: 174 75
-          line: 175 98
-          line: 176 100
-          Complexity of ^traitertranche: 1
-file: C:/Users/jean-baptiste.kerboe/Documents/GitHub/testing/ChatScript/../BOTDATA/common/ontogene.top 0
-    concept: ~bonjour 1
-    concept: ~aurevoir 2
-    concept: ~oui 3
-    concept: ~non 4
-    concept: ~bof 5
-    concept: ~rien 6
-    concept: ~compris 7
-    concept: ~inconnu 8
-    concept: ~exclu 10
-    concept: ~credit 12
-    concept: ~habitatm 13
-    concept: ~habitatf 14
-    concept: ~habitatp 15
-    concept: ~habitation 16
-    concept: ~immobilier 17
-    concept: ~pays 19
-    concept: ~pays_etrangers 20
-    concept: ~etranger 21
+          Complexity of rule ~hello.0.0- u: 1
+        rule: ~hello.1.0 u:  6
+          line: 7 0
+          Complexity of rule ~hello.1.0- u: 1
+        rule: ~hello.2.0 u:  9
+          line: 10 0
+          Complexity of rule ~hello.2.0- u: 1
+        rule: ~hello.3.0 u:  12
+          line: 13 0
+          Complexity of rule ~hello.3.0- u: 1
+        rule: ~hello.4.0 u:  15
+          line: 16 0
+          Complexity of rule ~hello.4.0- u: 1
+        rule: ~hello.5.0 u:  18
+          line: 19 0
+          Complexity of rule ~hello.5.0- u: 1
+        rule: ~hello.6.0 u:  21
+          line: 22 0
+          Complexity of rule ~hello.6.0- u: 1
+        rule: ~hello.7.0 u:  24
+          line: 24 0
+          line: 25 10
+          Complexity of rule ~hello.7.0- u: 1
+        rule: ~hello.8.0 t:  27
+          line: 27 0
+          line: 28 10
+          line: 29 109
+          line: 30 128
+          line: 31 148
+          line: 32 168
+          line: 33 188
+          line: 34 206
+          line: 35 226
+          line: 36 245
+          line: 37 262
+          line: 38 278
+          Complexity of rule ~hello.8.0- t: 1
+        rule: ~hello.9.0 t:  40
+          line: 40 0
+          line: 41 10
+          line: 42 46
+          Complexity of rule ~hello.9.0- t: 1
+file: C:/Users/jean-baptiste.kerboe/Documents/GitHub/testing/ChatScript/../BOTDATA/visabot/simplecontrol.top 0
+    macro: ^visabot 1
+          line: 2 0
+          line: 3 58
+          line: 4 83
+          line: 5 106
+          line: 6 131
+          Complexity of ^visabot: 1
+          line: 10 0
+    macro: ^fromoobtomain 15
+          line: 16 0
+          line: 17 16
+          Complexity of ^fromoobtomain: 1
+    topic: ~xpost_control 19
+        rule: ~xpost_control.0.0 t:  20
+          line: 20 0
+          line: 24 10
+          Complexity of rule ~xpost_control.0.0- t: 1
+    topic: ~control 26
+        rule: ~control.0.0 u:  27
+          line: 28 0
+          line: 29 20
+          line: 30 41
+          line: 31 62
+          line: 32 100
+          line: 33 162
+          line: 34 183
+          line: 40 204
+          line: 41 218
+          line: 42 302
+          line: 43 320
+          line: 44 358
+          line: 46 396
+          Complexity of rule ~control.0.0- u: 3
+        rule: ~control.1.0-MAIN u:  48
+          line: 49 0
+          line: 50 23
+          line: 51 44
+          line: 53 58
+          line: 54 97
+          line: 55 135
+          line: 56 203
+          Complexity of rule ~control.1.0-MAIN u: 3

@@ -1,0 +1,17 @@
+outputmacro: ^btnRP(^label ^payload)
+  ^"%[^label](reply:^payload)"
+
+outputmacro: ^btn(^kind ^txt)
+  ^"%[^txt](^kind:)"
+
+outputmacro: ^btns variable (^kind ^b1 ^b2 ^b3 ^b4 ^b5 ^b6 ^b7 ^b8 ^b9)
+  if (^b1) { ^btn(^kind ^b1) }
+  if (^b2) { ^btn(^kind ^b2) }
+  if (^b3) { ^btn(^kind ^b3) }
+  if (^b4) { ^btn(^kind ^b4) }
+  if (^b5) { ^btn(^kind ^b5) }
+  if (^b6) { ^btn(^kind ^b6) }
+  if (^b7) { ^btn(^kind ^b7) }
+  if (^b8) { ^btn(^kind ^b8) }
+  if (^b9) { ^btn(^kind ^b9) }
+

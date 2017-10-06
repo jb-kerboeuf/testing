@@ -14,3 +14,235 @@ No such bot  testuser:visabot -  -  status: bnpcreditimmo   in topic_testuser_vi
     Command: :build 1 reset
 Start: user:testuser bot:visabot ip: rand:484 (~questions) 0 ==> [{ "nbEchanges": 0, "progress": 0 } ]`Bonjour!  Je suis Laure, votre assistante virtuelle. `Comment puis-je vous aider?`   When:Aug25'17-11:51:16 Version:7.52 Build0:Jul08'17-10:20:54 Build1:Aug25'17-11:51:12 0:Aug25'17-11:51:12 F:0 P:0 Why:~xpost_control.0.0 ~debut.2.0.~control.1.0=MAIN ~questions.0.0=AIDER.~debut.2.0 ~debut.2.0.~control.1.0=MAIN 
 Respond: user:testuser bot:visabot ip: (~questions) 1   impots ==> [{ "nbEchanges": 1, "progress": 0 } ]`Je peux répondre à des questions un peu plus élaborées, que désirez-vous savoir à ce sujet?  When:Aug25'17-11:51:23 Why:~xpost_control.0.0 ~questions.68.0.~control.1.0=MAIN   F:47 
+Start: user:testuser bot:visabot ip: rand:485 (~questions) 1 ==> [{ "nbEchanges": 1, "progress": 0 } ]`Je n’ai pas compris votre question, pouvez-vous reformuler?  When:Aug25'17-12:18:13 Version:7.52 Build0:Jul08'17-10:20:54 Build1:Aug25'17-11:51:12 0:Aug25'17-11:51:12 F:0 P:Aug25'17-11:51:23 Why:~xpost_control.0.0 ~questions.70.0.~control.1.0=MAIN 
+Start: user:testuser bot:visabot ip: rand:485 (~questions) 1 ==> [{ "nbEchanges": 1, "progress": 0 } ]`Je n’ai pas compris votre question, je suis encore en développement. Si vous avez besoin d'aide dites "aide".  When:Aug25'17-16:31:09 Version:7.52 Build0:Jul08'17-10:20:54 Build1:Aug25'17-11:51:12 0:Aug25'17-11:51:12 F:0 P:Aug25'17-11:51:23 Why:~xpost_control.0.0 ~questions.69.0.~control.1.0=MAIN 
+Command: :build 1 reset
+Start: user:testuser bot:visabot ip: rand:484 (~questions) 0 ==> [{ "nbEchanges": 0, "progress": 0 } ]`Bonjour!  Je suis Laure, votre assistante virtuelle. `Comment puis-je vous aider?`   When:Aug25'17-16:31:18 Version:7.52 Build0:Jul08'17-10:20:54 Build1:Aug25'17-16:31:14 0:Aug25'17-11:51:12 F:0 P:Aug25'17-11:51:23 Why:~xpost_control.0.0 ~debut.2.0.~control.1.0=MAIN ~questions.0.0=AIDER.~debut.2.0 ~debut.2.0.~control.1.0=MAIN 
+Command: :build 1 reset
+Start: user:testuser bot:visabot ip: rand:484 () 0 ==> [{ "nbEchanges": 0, "progress": 0 } ]  When:Aug25'17-16:31:49 Version:7.52 Build0:Jul08'17-10:20:54 Build1:Aug25'17-16:31:46 0:Aug25'17-11:51:12 F:0 P:Aug25'17-11:51:23 Why:~xpost_control.0.0 
+Respond: user:testuser bot:visabot ip: (~debut) 1   hi ==> [{ "nbEchanges": 1, "progress": 0 } ]`Emohello. What can I do for you today?  %[Flights](reply:) %[Trains](reply:) %[Coaches](reply:) %["Transfers & Taxis"](reply:)  When:Aug25'17-16:31:59 Why:~xpost_control.0.0 ~debut.1.0.~control.1.0=MAIN   F:0 
+Respond: user:testuser bot:visabot ip: (~debut) 2   Flights ==> [{ "nbEchanges": 2, "progress": 0 } ]`Tryalttopics ()  When:Aug25'17-16:32:30 Why:~xpost_control.0.0 ~control.1.0=MAIN   F:0 
+Command: :build 1 reset
+Start: user:testuser bot:visabot ip: rand:484 () 0 ==> [{ "nbEchanges": 0, "progress": 0 } ]  When:Aug25'17-16:33:55 Version:7.52 Build0:Jul08'17-10:20:54 Build1:Aug25'17-16:33:52 0:Aug25'17-11:51:12 F:0 P:Aug25'17-16:32:30 Why:~xpost_control.0.0 
+Respond: user:testuser bot:visabot ip: (~debut) 1   hi ==> [{ "nbEchanges": 1, "progress": 0 } ]`Hello. What can I do for you today?  %[Flights](reply:) %[Trains](reply:) %[Coaches](reply:) %["Transfers & Taxis"](reply:)  When:Aug25'17-16:33:59 Why:~xpost_control.0.0 ~debut.1.0.~control.1.0=MAIN   F:0 
+Respond: user:testuser bot:visabot ip: (~debut) 2   Flights ==> [{ "nbEchanges": 2, "progress": 0 } ]  When:Aug25'17-16:34:00 Why:~xpost_control.0.0   F:0 
+Respond: user:testuser bot:visabot ip: (~debut) 3   Flight ==> [{ "nbEchanges": 3, "progress": 0 } ]  When:Aug25'17-16:34:05 Why:~xpost_control.0.0   F:16 
+Command: :build 1 reset
+Start: user:testuser bot:visabot ip: rand:484 () 0 ==> [{ "nbEchanges": 0, "progress": 0 } ]  When:Aug25'17-16:34:53 Version:7.52 Build0:Jul08'17-10:20:54 Build1:Aug25'17-16:34:49 0:Aug25'17-11:51:12 F:0 P:Aug25'17-16:34:05 Why:~xpost_control.0.0 
+Command: :verify
+VERIFYING ~debut ......
+0 verify findings of 1 trials.
+Respond: user:testuser bot:visabot ip: (~debut) 1   hello ==> [{ "nbEchanges": 1, "progress": 0 } ]`Hello. What can I do for you today?  %[Flights](reply:) %[Trains](reply:) %[Coaches](reply:) %["Transfers & Taxis"](reply:)  When:Aug25'17-16:35:21 Why:~xpost_control.0.0 ~debut.1.0.~control.1.0=MAIN   F:0 
+Respond: user:testuser bot:visabot ip: (~debut) 2   hello ==> [{ "nbEchanges": 2, "progress": 0 } ]`Hello. What can I do for you today?  %[Flights](reply:) %[Trains](reply:) %[Coaches](reply:) %["Transfers & Taxis"](reply:)  When:Aug25'17-16:35:25 Why:~xpost_control.0.0 ~debut.1.0.~control.1.0=MAIN   F:0 
+Respond: user:testuser bot:visabot ip: (~debut) 3   flight ==> [{ "nbEchanges": 3, "progress": 0 } ]  When:Aug25'17-16:35:28 Why:~xpost_control.0.0   F:16 
+Command: :build 1 reset
+Start: user:testuser bot:visabot ip: rand:484 (~debut) 0 ==> [{ "nbEchanges": 0, "progress": 0 } ]`Hello. What can I do for you today?  %[Flights](reply:) %[Trains](reply:) %[Coaches](reply:) %["Transfers & Taxis"](reply:)  When:Aug25'17-16:36:32 Version:7.52 Build0:Jul08'17-10:20:54 Build1:Aug25'17-16:36:28 0:Aug25'17-11:51:12 F:0 P:Aug25'17-16:35:28 Why:~xpost_control.0.0 ~debut.1.0.~control.1.0=MAIN 
+Respond: user:testuser bot:visabot ip: (~debut) 1   flights ==> [{ "nbEchanges": 1, "progress": 0 } ]  When:Aug25'17-16:36:40 Why:~xpost_control.0.0   F:0 
+Command: :topic
+Respond: user:testuser bot:visabot ip: (~debut) 2   :topic ==> [{ "nbEchanges": 2, "progress": 0 } ]  When:Aug25'17-16:36:45 Why:~xpost_control.0.0   F:47 
+Command: :gambits
+No such topic 
+Command: :pending
+Pending topics: ~debut 
+Command: :build 1 reset
+Start: user:testuser bot:visabot ip: rand:484 (~debut) 0 ==> [{ "nbEchanges": 0, "progress": 0 } ]`Hello. What can I do for you today?  %[Flights](reply:) %[Trains](reply:) %[Coaches](reply:) %["Transfers & Taxis"](reply:)  When:Aug25'17-16:39:57 Version:7.52 Build0:Jul08'17-10:20:54 Build1:Aug25'17-16:39:53 0:Aug25'17-11:51:12 F:0 P:Aug25'17-16:36:45 Why:~xpost_control.0.0 ~debut.1.0.~control.1.0=MAIN 
+Command: :build 1 reset
+Start: user:testuser bot:visabot ip: rand:484 (~debut) 0 ==> [{ "nbEchanges": 0, "progress": 0 } ]`Hello. What can I do for you today?  %[Flights](reply:) %[Trains](reply:) %[Coaches](reply:) %["Transfers & Taxis"](reply:)  When:Aug25'17-16:40:51 Version:7.52 Build0:Jul08'17-10:20:54 Build1:Aug25'17-16:40:47 0:Aug25'17-11:51:12 F:0 P:Aug25'17-16:36:45 Why:~xpost_control.0.0 ~debut.1.0.~control.1.0=MAIN 
+Respond: user:testuser bot:visabot ip: (~debut) 1   flight ==> [{ "nbEchanges": 1, "progress": 0 } ]  When:Aug25'17-16:41:02 Why:~xpost_control.0.0   F:0 
+Command: :build 1 reset
+Start: user:testuser bot:visabot ip: rand:484 (~debut) 0 ==> [{ "nbEchanges": 0, "progress": 0 } ]`Hello. What can I do for you today?  %[Flights](reply:) %[Trains](reply:) %[Coaches](reply:) %["Transfers & Taxis"](reply:)  When:Aug25'17-16:41:34 Version:7.52 Build0:Jul08'17-10:20:54 Build1:Aug25'17-16:41:30 0:Aug25'17-11:51:12 F:0 P:Aug25'17-16:41:02 Why:~xpost_control.0.0 ~debut.1.0.~control.1.0=MAIN 
+Respond: user:testuser bot:visabot ip: (~debut) 1   flight ==> [{ "nbEchanges": 1, "progress": 0 } ]  When:Aug25'17-16:41:40 Why:~xpost_control.0.0   F:0 
+Command: :topics
+Command: :where$
+Command: :where
+Command: :pending
+Pending topics: ~debut 
+Command: :topicinfo
+
+Topic: ~flight  Flags: REPEAT Bot: all
+  Seen: never visited
+  Keys:
+    
+  Rules:
+    0(0) u:  ( from Paris ) $origin = Paris ^gambit ( ~ ) 
+    1(53) u:  ( to Madrid ) $destination = Madrid ^gambit ( ~ ) 
+    2(111) u:  ( [ on from ] * 4 ) $depart_date = ^"05/04" ^gambit ( ~ ) 
+    3(177) u:  ( wife ) $nb_adults = 2 ^gambit ( ~ ) 
+    4(223) u:  ( child ) $nb_children = 1 ^gambit ( ~ ) 
+    5(272) u:  ( no * [ baby infant ] ) $nb_infants = 0 ^gambit ( ~ ) 
+    6(335) t:  ( $option ) ^keep ( ) Very well! \n \t From: $origin \t\t To: $destination \n \t Adults: $...   
+    7(609) t:  ( !$destination ) ^keep ( ) Where are you going? 
+       (1) a:  ( Madrid ) $destination = Madrid 
+    8(707) t:  ( !$origin ) ^keep ( ) From where? 
+       (1) a:  ( Paris ) $origin = Paris 
+    9(784) t:  ( !$depart_date ) ^keep ( ) When would you like to go? 
+       (1) a:  ( 4 ) $depart_date = ^"05/04" 
+    10(885) t:  ( !$return_date ) ^keep ( ) And when are you coming back? 
+       (1) a:  ( 11 ) $return_date = ^"05/11" 
+    11(990) t:  ( !$nb_adults ) ^keep ( ) How many adults? ( 12+ year-olds ) 
+       (1) a:  ( _~number ) $nb_adults = _0 
+       (2) a:  ( wife ) $nb_adults = 2 
+    12(1128) t:  ( !$nb_infants ) ^keep ( ) Will you travel with an infant? ( less than 2 years old ) 
+       (1) a:  ( _~number ) $nb_infants = _0 
+       (2) a:  ( [ no none ] ) $nb_infants = 0 
+    13(1299) t:  ( !$nb_children ) ^keep ( ) How many children under the age of 12? 
+       (1) a:  ( _~number ) $nb_children = _0 
+       (2) a:  ( our child ) $nb_children = 1 
+    14(1452) t:  ( !$is_flexible ) ^keep ( ) Do you have flexible dates? 
+       (1) a:  ( ~yes ) $is_flexible = yes 
+       (2) a:  ( ~no ) $is_flexible = no 
+    15(1586) t:  ( ) ^keep ( ) Anything else? 
+       (1) a:  ( _* ) $options = _0 ^gambit ( ~ ) 
+  gambits: 10  responders: 6 (?:0 s:0 u:6)  rejoinders: 13
+
+Topic: ~debut  Flags: REPEAT Bot: all
+  Seen: never visited
+  Keys:
+    
+  Rules:
+    0(0) u:  ( flight ) ^keep ( ) ^respond ( ~flight ) 
+    1(50) t:  ( ) ^keep ( ) Hello. What can I do for you today? \n ^btns ( reply Flights Trains Coaches ...   
+  gambits: 1  responders: 1 (?:0 s:0 u:1)  rejoinders: 0
+
+Topic: ~xpost_control  Flags: SYSTEM KEEP REPEAT NOSTAY Bot: all
+  Seen: never visited
+  Keys:
+    
+  Rules:
+    0(0) t:  ( ) ^keep ( ) ^preprint ( \[ ^'{ "nbEchanges": %input, "progress": 0 }' \] ) ^if 00r( $pas...   
+  gambits: 1  responders: 0 (?:0 s:0 u:0)  rejoinders: 0
+
+Topic: ~control  Flags: SYSTEM KEEP NOSTAY Bot: all
+  Seen: never visited
+  Keys:
+    
+  Rules:
+    0(0) u:  ( \[ _* ) ^if 00d( $data ) 00u{ ^fromoobtomain ( ) } 04# else ( 1 ) 04N { $_userdata = ^js...   
+    1(426) u: MAIN ( ) ^if 00g( ! %topic ) 00I{ ^gambit ( ~debut ) ^end ( RULE ) } 004 
+  gambits: 0  responders: 2 (?:0 s:0 u:2)  rejoinders: 0
+Command: :build 1 reset
+Start: user:testuser bot:visabot ip: rand:484 (~debut) 0 ==> [{ "nbEchanges": 0, "progress": 0 } ]`Hello. What can I do for you today?  %[Flights](reply:) %[Trains](reply:) %[Coaches](reply:) %["Transfers & Taxis"](reply:)  When:Aug25'17-16:44:27 Version:7.52 Build0:Jul08'17-10:20:54 Build1:Aug25'17-16:44:24 0:Aug25'17-11:51:12 F:0 P:Aug25'17-16:41:40 Why:~xpost_control.0.0 ~debut.1.0.~control.1.0=MAIN 
+Respond: user:testuser bot:visabot ip: (~debut) 1   flights ==> [{ "nbEchanges": 1, "progress": 0 } ]`Hello. What can I do for you today?  %[Flights](reply:) %[Trains](reply:) %[Coaches](reply:) %["Transfers & Taxis"](reply:)  When:Aug25'17-16:44:32 Why:~xpost_control.0.0 ~debut.1.0.~control.1.0=MAIN   F:0 
+Respond: user:testuser bot:visabot ip: (~debut) 2   flight ==> [{ "nbEchanges": 2, "progress": 0 } ]`Hello. What can I do for you today?  %[Flights](reply:) %[Trains](reply:) %[Coaches](reply:) %["Transfers & Taxis"](reply:)  When:Aug25'17-16:44:36 Why:~xpost_control.0.0 ~debut.1.0.~control.1.0=MAIN   F:0 
+Command: :build 1 reset
+Start: user:testuser bot:visabot ip: rand:484 (~debut) 0 ==> [{ "nbEchanges": 0, "progress": 0 } ]`Hello. What can I do for you today?  %[Flights](reply:) %[Trains](reply:) %[Coaches](reply:) %["Transfers & Taxis"](reply:)  When:Aug25'17-16:46:35 Version:7.52 Build0:Jul08'17-10:20:54 Build1:Aug25'17-16:46:31 0:Aug25'17-11:51:12 F:0 P:Aug25'17-16:44:36 Why:~xpost_control.0.0 ~debut.1.0.~control.1.0=MAIN 
+Respond: user:testuser bot:visabot ip: (~debut) 1   flight ==> [{ "nbEchanges": 1, "progress": 0 } ]`Hello. What can I do for you today?  %[Flights](reply:) %[Trains](reply:) %[Coaches](reply:) %["Transfers & Taxis"](reply:)  When:Aug25'17-16:46:39 Why:~xpost_control.0.0 ~debut.1.0.~control.1.0=MAIN   F:16 
+Command: :build 1 reset
+Start: user:testuser bot:visabot ip: rand:484 (~debut) 0 ==> [{ "nbEchanges": 0, "progress": 0 } ]`Hello. What can I do for you today?  %[Flights](reply:) %[Trains](reply:) %[Coaches](reply:) %["Transfers & Taxis"](reply:)  When:Aug25'17-16:51:57 Version:7.52 Build0:Jul08'17-10:20:54 Build1:Aug25'17-16:51:53 0:Aug25'17-11:51:12 F:0 P:Aug25'17-16:46:39 Why:~xpost_control.0.0 ~debut.1.0.~control.1.0=MAIN 
+Respond: user:testuser bot:visabot ip: (~debut) 1   flight ==> [{ "nbEchanges": 1, "progress": 0 } ]`Hello. What can I do for you today?  %[Flights](reply:) %[Trains](reply:) %[Coaches](reply:) %["Transfers & Taxis"](reply:)  When:Aug25'17-16:52:00 Why:~xpost_control.0.0 ~debut.1.0.~control.1.0=MAIN   F:0 
+Command: :build 1 reset
+Start: user:testuser bot:visabot ip: rand:484 (~debut) 0 ==> [{ "nbEchanges": 0, "progress": 0 } ]`Hello. What can I do for you today?  %[Flights](reply:) %[Trains](reply:) %[Coaches](reply:) %["Transfers & Taxis"](reply:)  When:Aug25'17-16:52:40 Version:7.52 Build0:Jul08'17-10:20:54 Build1:Aug25'17-16:52:36 0:Aug25'17-11:51:12 F:0 P:Aug25'17-16:52:00 Why:~xpost_control.0.0 ~debut.1.0.~control.1.0=MAIN 
+Respond: user:testuser bot:visabot ip: (~debut) 1   flight ==> [{ "nbEchanges": 1, "progress": 0 } ]`Hello. What can I do for you today?  %[Flights](reply:) %[Trains](reply:) %[Coaches](reply:) %["Transfers & Taxis"](reply:)  When:Aug25'17-16:52:41 Why:~xpost_control.0.0 ~debut.1.0.~control.1.0=MAIN   F:0 
+Command: :build 1 reset
+Start: user:testuser bot:visabot ip: rand:484 (~debut) 0 ==> [{ "nbEchanges": 0, "progress": 0 } ]`Hello. What can I do for you today?  %[Flights](reply:) %[Trains](reply:) %[Coaches](reply:) %["Transfers & Taxis"](reply:)  When:Aug25'17-16:53:10 Version:7.52 Build0:Jul08'17-10:20:54 Build1:Aug25'17-16:53:07 0:Aug25'17-11:51:12 F:0 P:Aug25'17-16:52:41 Why:~xpost_control.0.0 ~debut.1.0.~control.1.0=MAIN 
+Respond: user:testuser bot:visabot ip: (~debut) 1   flight ==> [{ "nbEchanges": 1, "progress": 0 } ]  When:Aug25'17-16:53:12 Why:~xpost_control.0.0   F:0 
+Command: :build 1 reset
+Start: user:testuser bot:visabot ip: rand:484 (~flight) 0 ==> [{ "nbEchanges": 0, "progress": 0 } ]`Where are you going?  When:Aug25'17-16:54:48 Version:7.52 Build0:Jul08'17-10:20:54 Build1:Aug25'17-16:54:44 0:Aug25'17-11:51:12 F:0 P:Aug25'17-16:53:12 Why:~xpost_control.0.0 ~flight.7.0.~control.1.0=MAIN 
+Respond: user:testuser bot:visabot ip: (~flight) 1   from Paris to Madrid on the 4 until the 11 ==> [{ "nbEchanges": 1, "progress": 0 } ]  When:Aug25'17-16:55:11 Why:~xpost_control.0.0   F:0 
+Command: :build 1 reset
+Start: user:testuser bot:visabot ip: rand:484 (~debut) 0 ==> [{ "nbEchanges": 0, "progress": 0 } ]`Hello. What can I do for you today?  %[Flights](reply:) %[Trains](reply:) %[Coaches](reply:) %["Transfers & Taxis"](reply:)  When:Aug25'17-16:56:05 Version:7.52 Build0:Jul08'17-10:20:54 Build1:Aug25'17-16:56:01 0:Aug25'17-11:51:12 F:0 P:Aug25'17-16:55:11 Why:~xpost_control.0.0 ~debut.1.0.~control.1.0=MAIN 
+Respond: user:testuser bot:visabot ip: (~debut) 1   flight ==> [{ "nbEchanges": 1, "progress": 0 } ]`Hello. What can I do for you today?  %[Flights](reply:) %[Trains](reply:) %[Coaches](reply:) %["Transfers & Taxis"](reply:)  When:Aug25'17-16:56:07 Why:~xpost_control.0.0 ~debut.1.0.~control.1.0=MAIN   F:16 
+Respond: user:testuser bot:visabot ip: (~debut) 2   Flights ==> [{ "nbEchanges": 2, "progress": 0 } ]`Hello. What can I do for you today?  %[Flights](reply:) %[Trains](reply:) %[Coaches](reply:) %["Transfers & Taxis"](reply:)  When:Aug25'17-16:56:12 Why:~xpost_control.0.0 ~debut.1.0.~control.1.0=MAIN   F:0 
+Command: :build 1 reset
+Start: user:testuser bot:visabot ip: rand:484 () 0 ==> [{ "nbEchanges": 0, "progress": 0 } ]  When:Aug25'17-16:58:38 Version:7.52 Build0:Jul08'17-10:20:54 Build1:Aug25'17-16:58:34 0:Aug25'17-11:51:12 F:0 P:Aug25'17-16:56:12 Why:~xpost_control.0.0 
+Command: :build 1 reset
+Start: user:testuser bot:visabot ip: rand:484 (~hello) 0 ==> [{ "nbEchanges": 0, "progress": 0 } ]`Hello. What can I do for you today?  %[Flights](reply:) %[Trains](reply:) %[Coaches](reply:) %["Transfers & Taxis"](reply:)  When:Aug25'17-16:59:05 Version:7.52 Build0:Jul08'17-10:20:54 Build1:Aug25'17-16:59:02 0:Aug25'17-11:51:12 F:0 P:Aug25'17-16:56:12 Why:~xpost_control.0.0 ~hello.1.0.~control.1.0=MAIN 
+Respond: user:testuser bot:visabot ip: (~hello) 1   Flights$* ==> [{ "nbEchanges": 1, "progress": 0 } ]`Hello. What can I do for you today?  %[Flights](reply:) %[Trains](reply:) %[Coaches](reply:) %["Transfers & Taxis"](reply:)  When:Aug25'17-16:59:12 Why:~xpost_control.0.0 ~hello.1.0.~control.1.0=MAIN   F:0 
+Respond: user:testuser bot:visabot ip: (~hello) 2   Flights ==> [{ "nbEchanges": 2, "progress": 0 } ]`Hello. What can I do for you today?  %[Flights](reply:) %[Trains](reply:) %[Coaches](reply:) %["Transfers & Taxis"](reply:)  When:Aug25'17-16:59:16 Why:~xpost_control.0.0 ~hello.1.0.~control.1.0=MAIN   F:0 
+Respond: user:testuser bot:visabot ip: (~hello) 3   flight ==> [{ "nbEchanges": 3, "progress": 0 } ]`Hello. What can I do for you today?  %[Flights](reply:) %[Trains](reply:) %[Coaches](reply:) %["Transfers & Taxis"](reply:)  When:Aug25'17-16:59:19 Why:~xpost_control.0.0 ~hello.1.0.~control.1.0=MAIN   F:0 
+Command: :build 1 reset
+Start: user:testuser bot:visabot ip: rand:484 (~hello) 0 ==> [{ "nbEchanges": 0, "progress": 0 } ]`Hello. What can I do for you today?  %[Flights](reply:) %[Trains](reply:) %[Coaches](reply:) %["Transfers & Taxis"](reply:)  When:Aug25'17-17:01:50 Version:7.52 Build0:Jul08'17-10:20:54 Build1:Aug25'17-17:01:46 0:Aug25'17-11:51:12 F:0 P:Aug25'17-16:59:19 Why:~xpost_control.0.0 ~hello.1.0.~control.1.0=MAIN 
+Respond: user:testuser bot:visabot ip: (~hello) 1   Flights ==> [{ "nbEchanges": 1, "progress": 0 } ]`Hello. What can I do for you today?  %[Flights](reply:) %[Trains](reply:) %[Coaches](reply:) %["Transfers & Taxis"](reply:)  When:Aug25'17-17:01:52 Why:~xpost_control.0.0 ~hello.1.0.~control.1.0=MAIN   F:0 
+Respond: user:testuser bot:visabot ip: (~hello) 2   flight ==> [{ "nbEchanges": 2, "progress": 0 } ]`Hello. What can I do for you today?  %[Flights](reply:) %[Trains](reply:) %[Coaches](reply:) %["Transfers & Taxis"](reply:)  When:Aug25'17-17:01:56 Why:~xpost_control.0.0 ~hello.1.0.~control.1.0=MAIN   F:0 
+Command: :build 1 reset
+Start: user:testuser bot:visabot ip: rand:484 (~hello) 0 ==> [{ "nbEchanges": 0, "progress": 0 } ]`Hello. What can I do for you today?  %[Flights](reply:) %[Trains](reply:) %[Coaches](reply:) %["Transfers & Taxis"](reply:)  When:Aug25'17-17:02:17 Version:7.52 Build0:Jul08'17-10:20:54 Build1:Aug25'17-17:02:14 0:Aug25'17-11:51:12 F:0 P:Aug25'17-17:01:56 Why:~xpost_control.0.0 ~hello.1.0.~control.1.0=MAIN 
+Respond: user:testuser bot:visabot ip: (~hello) 1   Flight ==> [{ "nbEchanges": 1, "progress": 0 } ]  When:Aug25'17-17:02:21 Why:~xpost_control.0.0   F:16 
+Command: :build 1 reset
+Start: user:testuser bot:visabot ip: rand:484 (~hello) 0 ==> [{ "nbEchanges": 0, "progress": 0 } ]`Hello. What can I do for you today?  %[Flights](reply:) %[Trains](reply:) %[Coaches](reply:) %["Transfers & Taxis"](reply:)  When:Aug25'17-17:02:52 Version:7.52 Build0:Jul08'17-10:20:54 Build1:Aug25'17-17:02:48 0:Aug25'17-11:51:12 F:0 P:Aug25'17-17:02:21 Why:~xpost_control.0.0 ~hello.1.0.~control.1.0=MAIN 
+Respond: user:testuser bot:visabot ip: (~flight) 1   Flight ==> [{ "nbEchanges": 1, "progress": 0 } ]`Where are you going?  When:Aug25'17-17:02:54 Why:~xpost_control.0.0 ~flight.7.0.~hello.0.0   F:0 
+Command: :build 1 reset
+Start: user:testuser bot:visabot ip: rand:484 (~hello) 0 ==> [{ "nbEchanges": 0, "progress": 0 } ]`Hello. What can I do for you today?  %[Flights](reply:) %[Trains](reply:) %[Coaches](reply:) %["Transfers & Taxis"](reply:)  When:Aug25'17-17:03:14 Version:7.52 Build0:Jul08'17-10:20:54 Build1:Aug25'17-17:03:10 0:Aug25'17-11:51:12 F:0 P:Aug25'17-17:02:54 Why:~xpost_control.0.0 ~hello.1.0.~control.1.0=MAIN 
+Respond: user:testuser bot:visabot ip: (~flight) 1   Flights ==> [{ "nbEchanges": 1, "progress": 0 } ]`Where are you going?  When:Aug25'17-17:03:16 Why:~xpost_control.0.0 ~flight.7.0.~hello.0.0   F:16 
+Respond: user:testuser bot:visabot ip: (~flight) 2   Madird ==> [{ "nbEchanges": 2, "progress": 0 } ]`From where?  When:Aug25'17-17:03:20 Why:~xpost_control.0.0 ~flight.8.0.~control.1.0=MAIN   F:63 
+Respond: user:testuser bot:visabot ip: (~flight) 3   from the 4 to the 11 ==> [{ "nbEchanges": 3, "progress": 0 } ]`From where?  When:Aug25'17-17:03:35 Why:~xpost_control.0.0 ~flight.8.0.~flight.2.0   F:0 
+Respond: user:testuser bot:visabot ip: (~flight) 4   Paris ==> [{ "nbEchanges": 4, "progress": 0 } ]`And when are you coming back?  When:Aug25'17-17:03:38 Why:~xpost_control.0.0 ~flight.10.0.~control.1.0=MAIN   F:15 
+Command: :reset
+Start: user:testuser bot:visabot ip: rand:484 (~hello) 0 ==> [{ "nbEchanges": 0, "progress": 0 } ]`Hello. What can I do for you today?  %[Flights](reply:) %[Trains](reply:) %[Coaches](reply:) %["Transfers & Taxis"](reply:)  When:Aug25'17-17:03:53 Version:7.52 Build0:Jul08'17-10:20:54 Build1:Aug25'17-17:03:10 0:Aug25'17-11:51:12 F:0 P:Aug25'17-17:03:38 Why:~xpost_control.0.0 ~hello.1.0.~control.1.0=MAIN 
+Respond: user:testuser bot:visabot ip: (~flight) 1   flight ==> [{ "nbEchanges": 1, "progress": 0 } ]`Where are you going?  When:Aug25'17-17:03:56 Why:~xpost_control.0.0 ~flight.7.0.~hello.0.0   F:0 
+Command: :build 1 reset
+Start: user:testuser bot:visabot ip: rand:484 (~hello) 0 ==> [{ "nbEchanges": 0, "progress": 0 } ]`Hello. What can I do for you today?  %[Flights](reply:) %[Trains](reply:) %[Coaches](reply:) %["Transfers & Taxis"](reply:)  When:Aug25'17-17:04:43 Version:7.52 Build0:Jul08'17-10:20:54 Build1:Aug25'17-17:04:39 0:Aug25'17-11:51:12 F:0 P:Aug25'17-17:03:56 Why:~xpost_control.0.0 ~hello.1.0.~control.1.0=MAIN 
+Respond: user:testuser bot:visabot ip: (~flight) 1   I need a flight from paris to madrid on May the 4 ==> [{ "nbEchanges": 1, "progress": 0 } ]`Where are you going?  When:Aug25'17-17:04:59 Why:~xpost_control.0.0 ~flight.8.0.~hello.0.0   F:32 
+Respond: user:testuser bot:visabot ip: (~flight) 2   I need a flight from paris to madrid on May the 4 ==> [{ "nbEchanges": 2, "progress": 0 } ]`When would you like to go?  When:Aug25'17-17:05:17 Why:~xpost_control.0.0 ~flight.10.0.~flight.0.0   F:15 
+Command: :build 1 reset
+Start: user:testuser bot:visabot ip: rand:484 (~hello) 0 ==> [{ "nbEchanges": 0, "progress": 0 } ]`Hello. What can I do for you today?  %[Flights](reply:) %[Trains](reply:) %[Coaches](reply:) %["Transfers & Taxis"](reply:)  When:Aug25'17-17:06:20 Version:7.52 Build0:Jul08'17-10:20:54 Build1:Aug25'17-17:06:16 0:Aug25'17-11:51:12 F:0 P:Aug25'17-17:05:17 Why:~xpost_control.0.0 ~hello.1.0.~control.1.0=MAIN 
+Respond: user:testuser bot:visabot ip: (~flight) 1   Flights ==> [{ "nbEchanges": 1, "progress": 0 } ]`Where are you going?  When:Aug25'17-17:06:25 Why:~xpost_control.0.0 ~flight.8.0.~hello.0.0   F:0 
+Respond: user:testuser bot:visabot ip: (~flight) 2   Madrid ==> [{ "nbEchanges": 2, "progress": 0 } ]`From where?  When:Aug25'17-17:06:28 Why:~xpost_control.0.0 ~flight.9.0.~control.1.0=MAIN   F:16 
+Respond: user:testuser bot:visabot ip: (~flight) 3   Paris ==> [{ "nbEchanges": 3, "progress": 0 } ]`When would you like to go?  When:Aug25'17-17:06:31 Why:~xpost_control.0.0 ~flight.10.0.~control.1.0=MAIN   F:0 
+Respond: user:testuser bot:visabot ip: (~flight) 4   the 4th ==> [{ "nbEchanges": 4, "progress": 0 } ]`And when are you coming back?  When:Aug25'17-17:06:38 Why:~xpost_control.0.0 ~flight.11.0.~flight.2.0   F:0 
+Respond: user:testuser bot:visabot ip: (~flight) 5   the 11th ==> [{ "nbEchanges": 5, "progress": 0 } ]`How many adults? (12+ year-olds)  When:Aug25'17-17:06:41 Why:~xpost_control.0.0 ~flight.12.0.~flight.3.0   F:0 
+Respond: user:testuser bot:visabot ip: (~flight) 6   2 ==> [{ "nbEchanges": 6, "progress": 0 } ]`Will you travel with an infant? (less than 2 years old)  When:Aug25'17-17:06:44 Why:~xpost_control.0.0 ~flight.13.0.~control.1.0=MAIN   F:0 
+Respond: user:testuser bot:visabot ip: (~flight) 7   no ==> [{ "nbEchanges": 7, "progress": 0 } ]`Will you travel with an infant? (less than 2 years old)  When:Aug25'17-17:06:49 Why:~xpost_control.0.0 ~flight.13.0.~control.1.0=MAIN   F:0 
+Respond: user:testuser bot:visabot ip: (~flight) 8   0 ==> [{ "nbEchanges": 8, "progress": 0 } ]`How many children under the age of 12?  When:Aug25'17-17:07:47 Why:~xpost_control.0.0 ~flight.14.0.~control.1.0=MAIN   F:0 
+Respond: user:testuser bot:visabot ip: (~flight) 9   1 ==> [{ "nbEchanges": 9, "progress": 0 } ]`Do you have flexible dates?  When:Aug25'17-17:07:50 Why:~xpost_control.0.0 ~flight.15.0.~control.1.0=MAIN   F:0 
+Respond: user:testuser bot:visabot ip: (~flight) 10   no ==> [{ "nbEchanges": 10, "progress": 0 } ]`Anything else?  When:Aug25'17-17:07:53 Why:~xpost_control.0.0 ~flight.16.0.~control.1.0=MAIN   F:0 
+Respond: user:testuser bot:visabot ip: (~flight) 11   I have a dog ==> [{ "nbEchanges": 11, "progress": 0 } ]`Anything else?  When:Aug25'17-17:07:58 Why:~xpost_control.0.0 ~flight.16.0.~flight.16.1   F:0 
+Command: :build 1 reset
+Start: user:testuser bot:visabot ip: rand:484 (~hello) 0 ==> [{ "nbEchanges": 0, "progress": 0 } ]`Hello. What can I do for you today?  %[Flights](reply:) %[Trains](reply:) %[Coaches](reply:) %["Transfers & Taxis"](reply:)  When:Aug25'17-17:09:06 Version:7.52 Build0:Jul08'17-10:20:54 Build1:Aug25'17-17:09:03 0:Aug25'17-11:51:12 F:0 P:Aug25'17-17:07:58 Why:~xpost_control.0.0 ~hello.1.0.~control.1.0=MAIN 
+Respond: user:testuser bot:visabot ip: (~flight) 1   Flights ==> [{ "nbEchanges": 1, "progress": 0 } ]`Where are you going?  When:Aug25'17-17:09:09 Why:~xpost_control.0.0 ~flight.8.0.~hello.0.0   F:0 
+Respond: user:testuser bot:visabot ip: (~flight) 2   Madrid ==> [{ "nbEchanges": 2, "progress": 0 } ]`From where?  When:Aug25'17-17:09:10 Why:~xpost_control.0.0 ~flight.9.0.~control.1.0=MAIN   F:16 
+Respond: user:testuser bot:visabot ip: (~flight) 3   Paris ==> [{ "nbEchanges": 3, "progress": 0 } ]`When would you like to go?  When:Aug25'17-17:09:11 Why:~xpost_control.0.0 ~flight.10.0.~control.1.0=MAIN   F:16 
+Respond: user:testuser bot:visabot ip: (~flight) 4   the 4th ==> [{ "nbEchanges": 4, "progress": 0 } ]`And when are you coming back?  When:Aug25'17-17:09:11 Why:~xpost_control.0.0 ~flight.11.0.~flight.2.0   F:0 
+Respond: user:testuser bot:visabot ip: (~flight) 5   the 11th ==> [{ "nbEchanges": 5, "progress": 0 } ]`How many adults? (12+ year-olds)  When:Aug25'17-17:09:12 Why:~xpost_control.0.0 ~flight.12.0.~flight.3.0   F:16 
+Respond: user:testuser bot:visabot ip: (~flight) 6   2 ==> [{ "nbEchanges": 6, "progress": 0 } ]`Will you travel with an infant? (less than 2 years old)  When:Aug25'17-17:09:13 Why:~xpost_control.0.0 ~flight.13.0.~control.1.0=MAIN   F:0 
+Respond: user:testuser bot:visabot ip: (~flight) 7   no ==> [{ "nbEchanges": 7, "progress": 0 } ]`How many children under the age of 12?  When:Aug25'17-17:09:15 Why:~xpost_control.0.0 ~flight.14.0.~control.1.0=MAIN   F:0 
+Respond: user:testuser bot:visabot ip: (~flight) 8   0 ==> [{ "nbEchanges": 8, "progress": 0 } ]`Do you have flexible dates?  When:Aug25'17-17:09:16 Why:~xpost_control.0.0 ~flight.15.0.~control.1.0=MAIN   F:0 
+Respond: user:testuser bot:visabot ip: (~flight) 9   no ==> [{ "nbEchanges": 9, "progress": 0 } ]`Anything else?  When:Aug25'17-17:09:21 Why:~xpost_control.0.0 ~flight.16.0.~control.1.0=MAIN   F:0 
+Respond: user:testuser bot:visabot ip: (~flight) 10   I have a dog ==> [{ "nbEchanges": 10, "progress": 0 } ]`Very well!  `	 From: Paris 	 	 To: Madrid  	 Adults: 2 	 	 Children: 0 	 	 Infants: 0  	 Departure: 05/11 	 	 Return: 05/11  	 Flexible: no  	 Options: I have a dog    When:Aug25'17-17:09:22 Why:~xpost_control.0.0 ~flight.16.1 ~flight.7.0=RECAP.~flight.16.1   F:16 
+Command: :reset
+Start: user:testuser bot:visabot ip: rand:484 (~hello) 0 ==> [{ "nbEchanges": 0, "progress": 0 } ]`Hello. What can I do for you today?  %[Flights](reply:) %[Trains](reply:) %[Coaches](reply:) %["Transfers & Taxis"](reply:)  When:Aug25'17-17:09:57 Version:7.52 Build0:Jul08'17-10:20:54 Build1:Aug25'17-17:09:03 0:Aug25'17-11:51:12 F:0 P:Aug25'17-17:09:22 Why:~xpost_control.0.0 ~hello.1.0.~control.1.0=MAIN 
+Respond: user:testuser bot:visabot ip: (~flight) 1   I'll need to book a flight from Paris to Madrid on May the 4th until the 11th ==> [{ "nbEchanges": 1, "progress": 0 } ]`Where are you going?  When:Aug25'17-17:10:29 Why:~xpost_control.0.0 ~flight.8.0.~hello.0.0   F:16 
+Respond: user:testuser bot:visabot ip: (~flight) 2   I'll need to book a flight from Paris to Madrid on May the 4th until the 11th ==> [{ "nbEchanges": 2, "progress": 0 } ]`When would you like to go?  When:Aug25'17-17:10:31 Why:~xpost_control.0.0 ~flight.10.0.~flight.0.0   F:15 
+Respond: user:testuser bot:visabot ip: (~flight) 3   I'll need to book a flight from Paris to Madrid on May the 4th until the 11th ==> [{ "nbEchanges": 3, "progress": 0 } ]`And when are you coming back?  When:Aug25'17-17:10:32 Why:~xpost_control.0.0 ~flight.11.0.~flight.1.0   F:16 
+Respond: user:testuser bot:visabot ip: (~flight) 4   I'll need to book a flight from Paris to Madrid on May the 4th until the 11th ==> [{ "nbEchanges": 4, "progress": 0 } ]`How many adults? (12+ year-olds)  When:Aug25'17-17:10:33 Why:~xpost_control.0.0 ~flight.12.0.~flight.2.0   F:31 
+Command: :build 1 reset
+Start: user:testuser bot:visabot ip: rand:484 (~hello) 0 ==> [{ "nbEchanges": 0, "progress": 0 } ]`Hello. What can I do for you today?  %[Flights](reply:) %[Trains](reply:) %[Coaches](reply:) %["Transfers & Taxis"](reply:)  When:Aug25'17-17:11:19 Version:7.52 Build0:Jul08'17-10:20:54 Build1:Aug25'17-17:11:16 0:Aug25'17-11:51:12 F:0 P:Aug25'17-17:10:33 Why:~xpost_control.0.0 ~hello.1.0.~control.1.0=MAIN 
+Respond: user:testuser bot:visabot ip: (~flight) 1   I'll need to book a flight from Paris to Madrid on May the 4th until the 11th ==> [{ "nbEchanges": 1, "progress": 0 } ]`Where are you going?`Where are you going?  When:Aug25'17-17:11:23 Why:~xpost_control.0.0 ~flight.8.0.~hello.0.0 ~flight.8.0.~control.1.0=MAIN   F:16 
+Command: :build 1 reset
+Start: user:testuser bot:visabot ip: rand:484 (~hello) 0 ==> [{ "nbEchanges": 0, "progress": 0 } ]`Hello. What can I do for you today?  %[Flights](reply:) %[Trains](reply:) %[Coaches](reply:) %["Transfers & Taxis"](reply:)  When:Aug25'17-17:15:20 Version:7.52 Build0:Jul08'17-10:20:54 Build1:Aug25'17-17:15:16 0:Aug25'17-11:51:12 F:0 P:Aug25'17-17:11:23 Why:~xpost_control.0.0 ~hello.8.0.~control.1.0=MAIN 
+Respond: user:testuser bot:visabot ip: (~hello) 1   hi ==> [{ "nbEchanges": 1, "progress": 0 } ]`Hello. What can I do for you today?  %[Flights](reply:) %[Trains](reply:) %[Coaches](reply:) %["Transfers & Taxis"](reply:)  When:Aug25'17-17:15:23 Why:~xpost_control.0.0 ~hello.8.0.~control.1.0=MAIN   F:0 
+Respond: user:testuser bot:visabot ip: (~flight) 2   Flights ==> [{ "nbEchanges": 2, "progress": 0 } ]`Where are you going?  When:Aug25'17-17:15:28 Why:~xpost_control.0.0 ~flight.1.0.~hello.7.0   F:16 
+Respond: user:testuser bot:visabot ip: (~flight) 3   Paris ==> [{ "nbEchanges": 3, "progress": 0 } ]`Where are you going?  When:Aug25'17-17:15:31 Why:~xpost_control.0.0 ~flight.1.0.~control.1.0=MAIN   F:0 
+Respond: user:testuser bot:visabot ip: (~flight) 4   Madrid ==> [{ "nbEchanges": 4, "progress": 0 } ]`From where?  When:Aug25'17-17:15:33 Why:~xpost_control.0.0 ~flight.2.0.~control.1.0=MAIN   F:16 
+Respond: user:testuser bot:visabot ip: (~flight) 5   Paris ==> [{ "nbEchanges": 5, "progress": 0 } ]`When would you like to go?  When:Aug25'17-17:15:35 Why:~xpost_control.0.0 ~flight.3.0.~control.1.0=MAIN   F:0 
+Respond: user:testuser bot:visabot ip: (~flight) 6   4th ==> [{ "nbEchanges": 6, "progress": 0 } ]`And when are you coming back?  When:Aug25'17-17:15:41 Why:~xpost_control.0.0 ~flight.4.0.~control.1.0=MAIN   F:0 
+Respond: user:testuser bot:visabot ip: (~flight) 7   1th ==> [{ "nbEchanges": 7, "progress": 0 } ]`And when are you coming back?  When:Aug25'17-17:15:44 Why:~xpost_control.0.0 ~flight.4.0.~control.1.0=MAIN   F:16 
+Respond: user:testuser bot:visabot ip: (~flight) 8   ttth ==> [{ "nbEchanges": 8, "progress": 0 } ]`And when are you coming back?  When:Aug25'17-17:15:48 Why:~xpost_control.0.0 ~flight.4.0.~control.1.0=MAIN   F:16 
+Respond: user:testuser bot:visabot ip: (~flight) 9   11th ==> [{ "nbEchanges": 9, "progress": 0 } ]`How many adults? (12+ year-olds)  When:Aug25'17-17:15:51 Why:~xpost_control.0.0 ~flight.5.0.~control.1.0=MAIN   F:0 
+Command: :reset
+Start: user:testuser bot:visabot ip: rand:484 (~hello) 0 ==> [{ "nbEchanges": 0, "progress": 0 } ]`Hello. What can I do for you today?  %[Flights](reply:) %[Trains](reply:) %[Coaches](reply:) %["Transfers & Taxis"](reply:)  When:Aug25'17-17:15:55 Version:7.52 Build0:Jul08'17-10:20:54 Build1:Aug25'17-17:15:16 0:Aug25'17-11:51:12 F:0 P:Aug25'17-17:15:51 Why:~xpost_control.0.0 ~hello.8.0.~control.1.0=MAIN 
+Respond: user:testuser bot:visabot ip: (~hello) 1   I'll need to book a flight from Paris to Madrid on May the 4th until the 11th ==> [{ "nbEchanges": 1, "progress": 0 } ]`Hello. What can I do for you today?  %[Flights](reply:) %[Trains](reply:) %[Coaches](reply:) %["Transfers & Taxis"](reply:)  When:Aug25'17-17:16:00 Why:~xpost_control.0.0 ~hello.8.0.~hello.0.0   F:15 
+Respond: user:testuser bot:visabot ip: (~hello) 2   I'll need to book a flight from Paris to Madrid on May the 4th until the 11th ==> [{ "nbEchanges": 2, "progress": 0 } ]`Hello. What can I do for you today?  %[Flights](reply:) %[Trains](reply:) %[Coaches](reply:) %["Transfers & Taxis"](reply:)  When:Aug25'17-17:16:09 Why:~xpost_control.0.0 ~hello.8.0.~hello.1.0   F:16 
+Command: :build 1 reset
+Start: user:testuser bot:visabot ip: rand:484 (~hello) 0 ==> [{ "nbEchanges": 0, "progress": 0 } ]`Hello. What can I do for you today?  %[Flights](reply:) %[Trains](reply:) %[Coaches](reply:) %["Transfers & Taxis"](reply:)  When:Aug25'17-17:17:16 Version:7.52 Build0:Jul08'17-10:20:54 Build1:Aug25'17-17:17:12 0:Aug25'17-11:51:12 F:0 P:Aug25'17-17:16:09 Why:~xpost_control.0.0 ~hello.8.0.~control.1.0=MAIN 
+Respond: user:testuser bot:visabot ip: (~flight) 1   Flights ==> [{ "nbEchanges": 1, "progress": 0 } ]`Where are you going?  When:Aug25'17-17:17:21 Why:~xpost_control.0.0 ~flight.1.0.~hello.7.0   F:0 
+Respond: user:testuser bot:visabot ip: (~flight) 2   Madrid ==> [{ "nbEchanges": 2, "progress": 0 } ]`From where?  When:Aug25'17-17:17:23 Why:~xpost_control.0.0 ~flight.2.0.~control.1.0=MAIN   F:16 
+Command: :reset
+Start: user:testuser bot:visabot ip: rand:484 (~hello) 0 ==> [{ "nbEchanges": 0, "progress": 0 } ]`Hello. What can I do for you today?  %[Flights](reply:) %[Trains](reply:) %[Coaches](reply:) %["Transfers & Taxis"](reply:)  When:Aug25'17-17:17:29 Version:7.52 Build0:Jul08'17-10:20:54 Build1:Aug25'17-17:17:12 0:Aug25'17-11:51:12 F:0 P:Aug25'17-17:17:23 Why:~xpost_control.0.0 ~hello.8.0.~control.1.0=MAIN 
+Respond: user:testuser bot:visabot ip: (~flight) 1   I'll need to book a flight from Paris to Madrid on May the 4th until the 11th ==> [{ "nbEchanges": 1, "progress": 0 } ]`How many adults? (12+ year-olds)  When:Aug25'17-17:17:31 Why:~xpost_control.0.0 ~flight.5.0.~hello.7.0   F:16 
+Respond: user:testuser bot:visabot ip: (~flight) 2   2 ==> [{ "nbEchanges": 2, "progress": 0 } ]`Will you travel with an infant? (less than 2 years old)  When:Aug25'17-17:17:34 Why:~xpost_control.0.0 ~flight.6.0.~control.1.0=MAIN   F:0 
+Respond: user:testuser bot:visabot ip: (~flight) 3   0 ==> [{ "nbEchanges": 3, "progress": 0 } ]`How many children under the age of 12?  When:Aug25'17-17:17:37 Why:~xpost_control.0.0 ~flight.7.0.~control.1.0=MAIN   F:0 
+Respond: user:testuser bot:visabot ip: (~flight) 4   1 ==> [{ "nbEchanges": 4, "progress": 0 } ]`Do you have flexible dates?  When:Aug25'17-17:17:39 Why:~xpost_control.0.0 ~flight.8.0.~control.1.0=MAIN   F:0 
+Respond: user:testuser bot:visabot ip: (~flight) 5   nope ==> [{ "nbEchanges": 5, "progress": 0 } ]`Anything else?  When:Aug25'17-17:17:42 Why:~xpost_control.0.0 ~flight.9.0.~control.1.0=MAIN   F:16 
+Respond: user:testuser bot:visabot ip: (~flight) 6   no ==> [{ "nbEchanges": 6, "progress": 0 } ]`Very well!  `	 From: Paris 	 	 To: Madrid  	 Adults: 2 	 	 Children: 1 	 	 Infants: 0  	 Departure: 05/04 	 	 Return: 05/11  	 Flexible: no  	 Options: no    When:Aug25'17-17:17:46 Why:~xpost_control.0.0 ~flight.9.1 ~flight.0.0=RECAP.~flight.9.1   F:0 
+Command: :build 1 reset
+Start: user:testuser bot:visabot ip: rand:484 (~hello) 0 ==> [{ "nbEchanges": 0, "progress": 0 } ]`Hello. What can I do for you today?  %[Flights](reply:) %[Trains](reply:) %[Coaches](reply:) %["Transfers & Taxis"](reply:)  When:Aug25'17-17:24:27 Version:7.52 Build0:Jul08'17-10:20:54 Build1:Aug25'17-17:24:23 0:Aug25'17-11:51:12 F:0 P:Aug25'17-17:17:46 Why:~xpost_control.0.0 ~hello.9.0.~control.1.0=MAIN 
+Respond: user:testuser bot:visabot ip: (~flight) 1   flights ==> [{ "nbEchanges": 1, "progress": 0 } ]`Where are you going?  When:Aug25'17-17:24:34 Why:~xpost_control.0.0 ~flight.1.0.~hello.7.0   F:0 
+Command: :reset
+Start: user:testuser bot:visabot ip: rand:484 (~hello) 0 ==> [{ "nbEchanges": 0, "progress": 0 } ]`Hello. What can I do for you today?  %[Flights](reply:) %[Trains](reply:) %[Coaches](reply:) %["Transfers & Taxis"](reply:)  When:Aug25'17-17:24:37 Version:7.52 Build0:Jul08'17-10:20:54 Build1:Aug25'17-17:24:23 0:Aug25'17-11:51:12 F:0 P:Aug25'17-17:24:34 Why:~xpost_control.0.0 ~hello.9.0.~control.1.0=MAIN 
+Respond: user:testuser bot:visabot ip: (~flight) 1   I'll need to book a flight from Paris to Madrid on May the 4th until the 11th ==> [{ "nbEchanges": 1, "progress": 0 } ]`How many adults? (12+ year-olds)  When:Aug25'17-17:24:42 Why:~xpost_control.0.0 ~flight.5.0.~hello.7.0   F:31 
+Respond: user:testuser bot:visabot ip: (~flight) 2   2 ==> [{ "nbEchanges": 2, "progress": 0 } ]`Will you travel with an infant? (less than 2 years old)  When:Aug25'17-17:24:44 Why:~xpost_control.0.0 ~flight.6.0.~control.1.0=MAIN   F:0 
+Respond: user:testuser bot:visabot ip: (~flight) 3   0 ==> [{ "nbEchanges": 3, "progress": 0 } ]`How many children under the age of 12?  When:Aug25'17-17:24:46 Why:~xpost_control.0.0 ~flight.7.0.~control.1.0=MAIN   F:0 
+Respond: user:testuser bot:visabot ip: (~flight) 4   0 ==> [{ "nbEchanges": 4, "progress": 0 } ]`Do you have flexible dates?  When:Aug25'17-17:24:46 Why:~xpost_control.0.0 ~flight.8.0.~control.1.0=MAIN   F:0 
+Respond: user:testuser bot:visabot ip: (~flight) 5   no ==> [{ "nbEchanges": 5, "progress": 0 } ]`Anything else?  When:Aug25'17-17:24:49 Why:~xpost_control.0.0 ~flight.9.0.~control.1.0=MAIN   F:0 
+Respond: user:testuser bot:visabot ip: (~hello) 6   no ==> [{ "nbEchanges": 6, "progress": 0 } ]`Very well!  `	 From: Paris 	 	 To: Madrid  	 Adults: 2 	 	 Children: 0 	 	 Infants: 0  	 Departure: 05/04 	 	 Return: 05/11  	 Flexible: no  	 Options: no  `Your Concierge will get back to you within the next 4 hours with additional details regarding your booking.  When:Aug25'17-17:24:50 Why:~xpost_control.0.0 ~flight.9.1 ~flight.0.0=RECAP.~flight.9.1 ~hello.8.0.~flight.0.0=RECAP   F:0 
+Respond: user:testuser bot:visabot ip: (~hello) 7   hello$ ==> [{ "nbEchanges": 7, "progress": 0 } ]`Hello. What can I do for you today?  %[Flights](reply:) %[Trains](reply:) %[Coaches](reply:) %["Transfers & Taxis"](reply:)  When:Aug25'17-17:24:56 Why:~xpost_control.0.0 ~hello.9.0.~control.1.0=MAIN   F:16 

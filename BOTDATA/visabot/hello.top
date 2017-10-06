@@ -1,0 +1,42 @@
+topic: ~hello repeat []
+
+u: (from Paris)
+	$origin = Paris
+
+u: (to Madrid)
+	$destination = Madrid
+
+u: (4th)
+	$depart_date = ^"05/04"
+
+u: (11th)
+	$return_date = ^"05/11"
+
+u: (wife)
+	$nb_adults = 2
+
+u: (child)
+	$nb_children = 1
+
+u: (no * [baby infant])
+	$nb_infants = 0
+
+u: (flight)
+	^gambit(~flight)
+
+t: ($options) ^keep()
+	Your Concierge will get back to you within the next 4 hours with additional details regarding your booking.
+	$origin = null
+	$destination = null
+	$depart_date = null
+	$return_date = null
+	$nb_adults = null
+	$nb_children = null
+	$nb_infants = null
+	$flexible = null
+	$options = null
+	^reset(TOPIC *)
+
+t: (!$destination) ^keep()
+	Hello. What can I do for you today? \n
+	^btns(reply Flights Trains Coaches "Transfers & Taxis")

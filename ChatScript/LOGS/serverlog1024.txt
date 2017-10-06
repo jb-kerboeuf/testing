@@ -1,0 +1,64 @@
+﻿evserver child fork requests: 0
+  evserver: running pid: 21
+Server ChatScript EVSERVER Version 7.52 pid: 21 64 bit LINUX compiled Jul  8 2017 22:01:12 host=local
+Params:   dict:2097151 fact:800000 text:100000kb hash:215127 
+          buffer:80x80kb cache:1x5000kb userfacts:100 outputlimit:80000 loglimit:80000
+Build0:  dict=68162  fact=129309  heap=1149824 Compiled:Jul08'17-10:20:54 by version 7.51 "0"
+Build1:  dict=612  fact=819  heap=173436 Compiled:Aug25'17-11:51:12 by version 7.52 "1"
+Used 60MB: dict 269,309 (23699kb) hashdepths 74199.68563.39321.18985.8395.3537.1374.503.167.65.15.1.2.1. words 269309 unusedbuckets 74199 fact 215,658 (10351kb) heap 14898kb
+           buffer (6400kb) cache (5000kb)
+Free 113MB: dict 1,827,841 fact 584,342 stack/heap 85,101KB 
+
+    *** Server WIDE OPEN to :command use.
+
+
+======== Began EV server pid 21 7.52 compiled Jul  8 2017 22:01:12 on host local port 1024 at Fri Aug 25 11:58:04 2017 serverlog:1 userlog: 1
+evserver: parent ready (pid = 21), fork=0
+evserver child fork requests: 0
+  evserver: running pid: 23
+Server ChatScript EVSERVER Version 7.52 pid: 23 64 bit LINUX compiled Jul  8 2017 22:01:12 host=local
+Params:   dict:2097151 fact:800000 text:100000kb hash:215127 
+          buffer:80x80kb cache:1x5000kb userfacts:100 outputlimit:80000 loglimit:80000
+Build0:  dict=68162  fact=129309  heap=1149824 Compiled:Jul08'17-10:20:54 by version 7.51 "0"
+Build1:  dict=612  fact=819  heap=173436 Compiled:Aug25'17-11:51:12 by version 7.52 "1"
+Used 60MB: dict 269,309 (23699kb) hashdepths 74199.68563.39321.18985.8395.3537.1374.503.167.65.15.1.2.1. words 269309 unusedbuckets 74199 fact 215,658 (10351kb) heap 14898kb
+           buffer (6400kb) cache (5000kb)
+Free 113MB: dict 1,827,841 fact 584,342 stack/heap 85,101KB 
+
+    *** Server WIDE OPEN to :command use.
+
+
+======== Began EV server pid 23 7.52 compiled Jul  8 2017 22:01:12 on host local port 1024 at Fri Aug 25 12:07:25 2017 serverlog:1 userlog: 1
+evserver: parent ready (pid = 23), fork=0
+evserver child fork requests: 0
+  evserver: running pid: 25
+Server ChatScript EVSERVER Version 7.52 pid: 25 64 bit LINUX compiled Jul  8 2017 22:01:12 host=local
+Params:   dict:2097151 fact:800000 text:100000kb hash:215127 
+          buffer:80x80kb cache:1x5000kb userfacts:100 outputlimit:80000 loglimit:80000
+Build0:  dict=68162  fact=129309  heap=1149824 Compiled:Jul08'17-10:20:54 by version 7.51 "0"
+Build1:  dict=612  fact=819  heap=173436 Compiled:Aug25'17-11:51:12 by version 7.52 "1"
+Used 60MB: dict 269,309 (23699kb) hashdepths 74199.68563.39321.18985.8395.3537.1374.503.167.65.15.1.2.1. words 269309 unusedbuckets 74199 fact 215,658 (10351kb) heap 14898kb
+           buffer (6400kb) cache (5000kb)
+Free 113MB: dict 1,827,841 fact 584,342 stack/heap 85,101KB 
+
+    *** Server WIDE OPEN to :command use.
+
+
+======== Began EV server pid 25 7.52 compiled Jul  8 2017 22:01:12 on host local port 1024 at Fri Aug 25 15:01:49 2017 serverlog:1 userlog: 1
+evserver: parent ready (pid = 25), fork=0
+evserver child fork requests: 0
+  evserver: running pid: 28
+Server ChatScript EVSERVER Version 7.52 pid: 28 64 bit LINUX compiled Jul  8 2017 22:01:12 host=local
+Params:   dict:2097151 fact:800000 text:100000kb hash:215127 
+          buffer:80x80kb cache:1x5000kb userfacts:100 outputlimit:80000 loglimit:80000
+Build0:  dict=68162  fact=129309  heap=1149824 Compiled:Jul08'17-10:20:54 by version 7.51 "0"
+Build1:  dict=612  fact=819  heap=173436 Compiled:Aug25'17-11:51:12 by version 7.52 "1"
+Used 60MB: dict 269,309 (23699kb) hashdepths 74199.68563.39321.18985.8395.3537.1374.503.167.65.15.1.2.1. words 269309 unusedbuckets 74199 fact 215,658 (10351kb) heap 14898kb
+           buffer (6400kb) cache (5000kb)
+Free 113MB: dict 1,827,841 fact 584,342 stack/heap 85,101KB 
+
+    *** Server WIDE OPEN to :command use.
+
+
+======== Began EV server pid 28 7.52 compiled Jul  8 2017 22:01:12 on host local port 1024 at Fri Aug 25 15:04:53 2017 serverlog:1 userlog: 1
+evserver: parent ready (pid = 28), fork=0

@@ -1,28 +1,44 @@
 ﻿USERS/topic_testuser_visabot.txt
-jul2116 Aug25'17-11:51:12 0 0 |
-1 0 0 DY 0 9 9 0 # start, input#, no rejoinder, #0topics, #1topics, layer2
-~debut ~questions #pending
-~questions + 9 q8LJv iaaaaaaaaaaaaaaaaa 0 0 0 
+jul2116 Aug25'17-11:51:12 Aug25'17-17:24:50 0 |
+1 6 0 DY 0 4 4 0 # start, input#, no rejoinder, #0topics, #1topics, layer2
+~flight ~hello #pending
 #`end topics
-$pascompris=false
-$lastpascompris=false
 $cs_control_post=~xpost_control
 $botprompt=visabot: 
 $userprompt=testuser: >
 $cs_control_main=~control
-$cs_token=2815
+$cs_token=163583
 $cs_login=testuser
 $cs_bot=Visabot
 $cs_randindex=484
+$is_flexible=no
 $cs_trace=0
 #`end variables
 0 #set flags
 #`end fact sets
 #`end user facts 0
-#context ~questions 0 AIDER 
+#context 
+ I'll need to book a flight from Paris to Madrid on May the 4th until the 11th
+ 2
+ 0
+ 0
+ no
+ no
 #`end user
  
- Bonjour!\r\nJe suis Laure, votre assistante virtuelle. 
- Comment puis-je vous aider?
-  
+ Hello. What can I do for you today?\r\n%[Flights](reply:) %[Trains](reply:) %[Coaches](reply:) %[\"Transfers & Taxis\"](reply:)
+ 
+ How many adults? (12+ year-olds)
+ 
+ Will you travel with an infant? (less than 2 years old)
+ 
+ How many children under the age of 12?
+ 
+ Do you have flexible dates?
+ 
+ Anything else?
+ 
+ Very well!\r\n
+ \t From: Paris \t \t To: Madrid\r\n\t Adults: 2 \t \t Children: 0 \t \t Infants: 0\r\n\t Departure: 05/04 \t \t Return: 05/11\r\n\t Flexible: no\r\n\t Options: no\r\n
+ Your Concierge will get back to you within the next 4 hours with additional details regarding your booking.
 #`end chatbot

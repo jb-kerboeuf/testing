@@ -1,8 +1,0 @@
-﻿failed to connect to server
- 4 - called myexit at Fri Aug 25 12:20:37 2017
-failed to connect to server
- 4 - called myexit at Fri Aug 25 12:24:01 2017
-failed to connect to server
- 4 - called myexit at Fri Aug 25 12:24:47 2017
-failed to connect to server
- 4 - called myexit at Fri Aug 25 15:01:30 2017

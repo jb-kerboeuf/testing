@@ -1,0 +1,74 @@
+topic: ~flight repeat []
+
+t: RECAP ($options) ^keep()
+	\n
+	From: $origin \n
+	To: $destination \n
+	Departure: $depart_date \n
+	Return: $return_date \n
+	Flexible: $is_flexible \n
+	Adults: $nb_adults \n
+	Children: $nb_children \n
+	Infants: $nb_infants \n
+	Options: $options \n
+	\n
+	^gambit(~hello)
+
+t: (!$destination) ^keep()
+	Where are you going?
+	a: (Madrid)
+		$destination = Madrid
+
+t: (!$origin) ^keep()
+	From where?
+	a: (Paris)
+		$origin = Paris
+
+t: (!$depart_date) ^keep()
+	When would you like to go?
+	a: (4)
+		$depart_date = ^"05/04"
+
+t: (!$return_date) ^keep()
+	And when are you coming back?
+	a: (11)
+		$return_date = ^"05/11"
+
+t: (!$nb_adults) ^keep()
+	How many adults? (12+ year-olds)
+	^btns(reply 1 2 3 ...)
+	a: (_~number)
+		$nb_adults = _0
+	a: (wife)
+		$nb_adults = 2
+
+t: (!$nb_infants) ^keep()
+	Will you travel with an infant? (less than 2 years old)
+	^btns(reply 1 2 3 ...)
+	a: (_~number)
+		$nb_infants = _0
+	a: ([~no none])
+		$nb_infants = 0
+
+t: (!$nb_children) ^keep()
+	How many children under the age of 12?
+	^btns(reply 1 2 3 ...)
+	a: (_~number)
+		$nb_children = _0
+	a: (our child)
+		$nb_children = 1
+
+t: (!$is_flexible) ^keep()
+	Do you have flexible dates?
+	^btns(reply Yes No)
+	a: (~yes)
+		$is_flexible = yes
+	a: (~no)
+		$is_flexible = no
+
+t: () ^keep()
+	Anything else?
+	a: (_*)
+		Very well! \n
+		$options = _0
+		^gambit(~)

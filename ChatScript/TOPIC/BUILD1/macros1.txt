@@ -1,0 +1,5 @@
+﻿^btnrp o 0 0 C( ^label ^payload ) ^"%[^0](reply:^1)" `
+^btn o 0 0 C( ^kind ^txt ) ^"%[^1](^0:)" `
+^btns o 0 0 K( ^kind ^b1 ^b2 ^b3 ^b4 ^b5 ^b6 ^b7 ^b8 ^b9 ) ^if 00a( ^1 ) 00q{ ^btn ( ^0 ^1 ) } 004 ^if 00a( ^2 ) 00q{ ^btn ( ^0 ^2 ) } 004 ^if 00a( ^3 ) 00q{ ^btn ( ^0 ^3 ) } 004 ^if 00a( ^4 ) 00q{ ^btn ( ^0 ^4 ) } 004 ^if 00a( ^5 ) 00q{ ^btn ( ^0 ^5 ) } 004 ^if 00a( ^6 ) 00q{ ^btn ( ^0 ^6 ) } 004 ^if 00a( ^7 ) 00q{ ^btn ( ^0 ^7 ) } 004 ^if 00a( ^8 ) 00q{ ^btn ( ^0 ^8 ) } 004 ^if 00a( ^9 ) 00q{ ^btn ( ^0 ^9 ) } 004 `
+^visabot o 0 0 A( ) $cs_token = 1 | 4096 | 255 | 512 | 131072 | 1024 | 2048 | 24576 $cs_control_main = ~control $userprompt = ^"%user: >" $botprompt = ^"visabot: " $cs_control_post = ~xpost_control `
+^fromoobtomain o 0 0 A( ) ^next ( INPUT ) ^reuse ( MAIN ) `

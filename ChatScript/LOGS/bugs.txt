@@ -1,0 +1,24 @@
+﻿BUG in topic_testuser_visabot_FRENCH.txt at 0: ^visabot No such bot  testuser:visabot -  -  status: harryNo such directory ../../BOTDATA/common/*
+No such directory ../../BOTDATA/bnpcreditimmo/*
+No such bot  testuser -  -  status: defaultbot word not foundNo such directory BOTDATA/common/*
+No such directory BOTDATA/bnpcreditimmo/*
+No such bot  testuser -  -  status: defaultbot word not foundBUG in questions.top at 569:  *** Error- Undefined function ^btn 
+BUG in questions.top at 569:  *** Error- Undefined function ^btnrp 
+BUG in questions.top at 569:  *** Error- Undefined function ^btn 
+BUG in questions.top at 562:  *** Error- Undefined function ^btn 
+BUG in questions.top at 562:  *** Error- Undefined function ^btnrp 
+BUG in questions.top at 562:  *** Error- Undefined function ^btn 
+BUG in questions.top at 532:  *** Error- Undefined function ^btnrp 
+BUG in questions.top at 532:  *** Error- Undefined function ^btnrp 
+BUG in questions.top at 184:  *** Error- Undefined function ^btns 
+BUG in questions.top at 171:  *** Error- Undefined function ^btns 
+BUG in questions.top at 157:  *** Error- Undefined function ^btns 
+BUG in questions.top at 138:  *** Error- Undefined function ^btns 
+BUG in questions.top at 9:  *** Error- Undefined function ^btns 
+BUG in questions.top at 9:  *** Error- Undefined function ^btnrp 
+BUG in questions.top at 9:  *** Error- Undefined function ^btn 
+BUG in questions.top at 5:  *** Error- Undefined function ^btn 
+BUG in questions.top at 4:  *** Error- Undefined function ^btn 
+BUG in questions.top at 3:  *** Error- Undefined function ^btn 
+BUG in accueil.top at 27:  *** Error- Undefined function ^btns 
+No such bot  testuser -  -  status: defaultbot word not foundBUG in topic_testuser_visabot.txt at 0: ^visabot No such bot  testuser:visabot -  -  status: bnpcreditimmo
